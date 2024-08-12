@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: mmb_mprule_description.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+The style file: elsarticle-harv.bst
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+Database file #1: ../DynareModelBase.bib
+Reallocating 'singl_function' (item size: 4) to 100 items.
+You've used 13 entries,
+            2990 wiz_defined-function locations,
+            723 strings with 7858 characters,
+and the built_in function-call counts, 9312 in all, are:
+= -- 681
+> -- 393
+< -- 8
++ -- 156
+- -- 137
+* -- 1046
+:= -- 1342
+add.period$ -- 38
+call.type$ -- 13
+change.case$ -- 113
+chr.to.int$ -- 13
+cite$ -- 13
+duplicate$ -- 686
+empty$ -- 671
+format.name$ -- 187
+if$ -- 1735
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 134
+newline$ -- 79
+num.names$ -- 54
+pop$ -- 246
+preamble$ -- 1
+purify$ -- 97
+quote$ -- 0
+skip$ -- 188
+stack$ -- 0
+substring$ -- 397
+swap$ -- 517
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 117
+warning$ -- 0
+while$ -- 53
+width$ -- 0
+write$ -- 194

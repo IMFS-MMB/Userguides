@@ -1,0 +1,429 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage{tabulary}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage[dvips]{graphicx}
+\usepackage[longnamesfirst, round]{natbib}
+%\usepackage{natbib}
+%\biboptions{longnamesfirst,round,semicolon}
+\usepackage{a4wide}
+\usepackage[a4paper, dvips, mag=1000, truedimen, top=3cm, left=3cm, right=3cm, bottom=3.5cm]{geometry}
+%\usepackage{mathptmx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{times}
+%\usepackage[sidewaysfigure]{rotating}
+\usepackage{float}
+%\usepackage[latin1]{inputenc}        %f{\"u}r deutsche Texte
+\usepackage[T1]{fontenc}             %f{\"u}r deutsche Texte
+\usepackage{srcltx}
+\usepackage{hyperref}
+
+
+\graphicspath{../figures/}
+%\setlength{\parindent}{0pt} %keine Einrueckung erster Absatz
+%\sloppy
+
+\begin{document}
+	\begin{center}
+		{\Large \textbf{A list of available models} }
+		\par\end{center}
+	
+	%\fontsize{11}{18pt}\selectfont
+	
+	%%%%%%%%%%%%%%
+	%%%% SET COUNTERS FOR NUMBER OF MODELS %%%%%%%%
+	
+	
+	\newcounter{NKnumber}
+	\newcounter{USnumber}
+	\newcounter{EAnumber}
+	\newcounter{MCnumber}
+	\newcounter{OCnumber}
+	\newcounter{ALnumber}
+	
+	% ENTER NUMBER OF NK-MODELS
+	\setcounter{NKnumber}{45}
+	% ENTER NUMBER OF US-MODELS
+	\setcounter{USnumber}{66}
+	% ENTER NUMBER OF EA-MODELS
+	\setcounter{EAnumber}{20}
+	% ENTER NUMBER OF MULTI COUNTRY-MODELS
+	\setcounter{MCnumber}{10}
+	% ENTER NUMBER OF OTHER COUNTRIES-MODELS
+	\setcounter{OCnumber}{9}
+	% ENTER NUMBER OF ADAPTIVE LEARNING-MODELS
+	\setcounter{ALnumber}{11}
+	
+	% ADD NUMBERS TO GET TOTAL NUMBER OF MODELS IN THE MMB
+	\newcounter{numbermodels}
+	\setcounter{numbermodels}{
+		\numexpr\value{NKnumber}+\numexpr\value{USnumber}+\numexpr\value{EAnumber}+\numexpr\value{MCnumber}+\numexpr\value{OCnumber}+\numexpr\value{ALnumber} \relax}
+	
+	%%%%%%%%%%%%%%
+	
+	
+	%\section{A detailed overview of available models}
+	
+	\begin{center}
+		\textsc{\textbf{A List of Models Available in the Macroeconomic Model Data Base} } \\
+		%	\textsc{\textbf{(version 3.1, 154 models$^\ast$ )} }
+		\textsc{\textbf{(version 3.3, \the\value{numbermodels} models$^\ast$ )} }
+	\end{center}
+	\vfill
+	%\noindent \footnotesize $^\ast$ There are in total 154 models available, including all model variations such as adaptive learning versions, extended models or re-estimated models. 
+	
+	\noindent \footnotesize $^\ast$ There are in total \the\value{numbermodels} models available, including all model variations such as adaptive learning versions, extended models or re-estimated models. 
+	
+	
+	
+	\begin{table}[H]
+		\vspace{-1.0cm}
+		%\caption{\textsc{Models Currently Available in the Data Base}}
+		%\vspace{.2cm}
+		\label{tab:modov}
+		\begin{tabularx}{\textwidth}{lll}
+			\hline \hline
+			&& \\
+			%\multicolumn{3}{l}{\textsc{1. Calibrated Models (43 models)}} \\
+			\multicolumn{3}{l}{\textsc{1. Calibrated Models (\the\value{NKnumber} models)}} \\
+			
+			1.1	&	NK\_AFL15\footnotemark[2]	&	\cite{Angelonietal2015}	\\								
+			1.2	&	NK\_BGEU10	&	\cite{BlanchardGali10}	Calibrated	for	the	European	labor	market	\\		
+			&	NK\_BGUS10	&	\cite{BlanchardGali10}	Calibrated	for	the	U.S.	labor	market\\	
+			1.3	&	NK\_BGG99	&	\cite{BernankeGertlerGilchrist1999}	\\
+			1.4 & NK\_CDK24 & \cite{chan2024energy}  \\								
+			1.5	&	NK\_CFP10	&	\cite{carlstrom2010optimal}	\\								
+			1.6\footnotemark[1]	&	NK\_CGG99	&	\cite{ClaridaGaliGertler1999}\\%	-	(no	replication	package)	\\				
+			1.7\footnotemark[1]	&	NK\_CGG02	&	\cite{ClaridaGaliGertler2002}\\%	-	(no	replication	package)	\\				
+			1.8\footnotemark[1]	&	NK\_CK08	&	\cite{ChristoffelKuester2008}\\%	-	(no	replication	package)\\					
+			1.9\footnotemark[1]	&	NK\_CKL09	&	\cite{ChristoffelKuesterLinzert2009}\\%	-	(no	replication	package)\\					
+			1.10	&	NK\_CW09	&	\cite{CurdiaWoodford2009}	\\	
+			1.11	&	NK\_DEFK17	&	\cite{delnegro2017eggertson}	\\								
+			1.12	&	NK\_DT12		&	\cite{defiore2012tristani}	\\								
+			1.13	&	NK\_ET14		&	\cite{EllisonTischbirek2014}	\\								
+			1.14	&	NK\_FLMF18	&	\cite{filardo2018monetary}	\\
+			1.15& NK\_FNL23 & \cite{ferraria2023toward} \\								
+			1.16	&	NK\_GHP16	&	\cite{gnocci2016housework}	\\	
+			1.17	&	NK\_GK11	&	\cite{GertlerKaradi2011}	\\								
+			&	NK\_GK09lin	&	linear	model	based	on	the	working	paper	of	\cite{GertlerKaradi2011}	\\
+			1.18	&	NK\_GK13	&	\cite{GertlerKaradi2013}	\\		
+			1.19	&	NK\_GLSV07	&	\cite{gali2007understanding}	\\
+			1.20	&	NK\_GM05	&	\cite{GaliMonacelli2005}	\\								
+			1.21	&	NK\_GM07	&	\cite{goodfriend2007banking}	\\								
+			1.22	&	NK\_GM16	&	\cite{gali2016understanding}	\\														
+			1.23	&	NK\_GS14	&	\cite{gambacorta2014should}	\\								
+			1.24	&	NK\_GSSZ17	&	\cite{gilchrist2017inflation}	\\								
+			1.25	&	NK\_IR04	&	\cite{Ireland2004}	\\								
+			1.26	&	NK\_JO15ht	&	\cite{jang2015okano}	-	high	trading\\						
+			&	NK\_JO15lt	&	\cite{jang2015okano}	-	low	trading\\						
+			1.27	&	NK\_KM16	&	\cite{krause2016public}	\\								
+			1.28	&	NK\_KRS12	&	\cite{KannanRabanalScott2012}	\\								
+			1.29	&	NK\_KW16	&	\cite{kirchner2016fiscal}	\\								
+			1.30\footnotemark[1]	&	NK\_LWW03	&	\cite{LevinWielandWilliams2003}\\%	-	(no	replication	package)	\\				
+			1.31\footnotemark[1]	&	NK\_MCN99cr	&	\cite{McCallumNelson1999},	(Calvo-Rotemberg	model)\\%	-	(no	replication	package)\\	
+			1.32	&	NK\_MI14	&	\cite{michaillat2014atheory}	\\								
+			
+			1.33 &	NK\_MM10	&	\cite{MehMoran2010}	\\								
+			1.34	&	NK\_MPT10	&	\cite{monacelli2010unemployment}	\\								
+			1.35	&	NK\_NS14	&	\cite{NakamuraSteinsson2014}	\\								
+			1.36	&	NK\_PP17	&	\cite{paoli2017coordinating}	\\								
+			1.37	&	NK\_PSV16	&	\cite{pancrazi2016price}	\\								
+			1.38	&	NK\_RA16	&	\cite{rannenberg2016bank}	\\								
+			1.39\footnotemark[1]	&	NK\_RW06	&	\cite{RavennaWalsh2006}\\%	-	(no	replication	package)\\					
+			1.40\footnotemark[1]	&	NK\_RW97	&	\cite{RotembergWoodford1997}	\\%-	(no	replication	package)\\					
+			1.41	&	NK\_ST13	&	\cite{stracca2013inside}	\\								
+			1.42	&	RBC\_DTT11	&	\cite{DeFioreetal2011}	\\								
+			
+			&& \\
+			%\multicolumn{3}{l}{\textsc{2. Estimated US Models (60 models)}} \\
+		
+			\hline \hline
+			
+			%\multicolumn{3}{l}{\footnotesize \noindent $ ^{\ast \ast}$ Solving these models requires the MATLAB Statistics Toolbox. }
+		\end{tabularx}
+	\end{table}
+	
+	
+	
+	
+	
+	\vspace{-1cm}
+	
+	\begin{table}[H]
+		%\caption{\textsc{Models Currently Available in the Data Base (May 2009)}}
+		%\vspace{.2cm}
+		%\label{tab:modov}
+		\begin{tabularx}{\textwidth}{lll}
+			\hline \hline
+			&& \\
+			\multicolumn{3}{l}{\textsc{2. Estimated US Models (\the\value{USnumber} models)}} \\
+			
+			2.1 & US\_ACELm & \cite{AltigChristianoEichenbaumLinde2005}, (monetary policy shock)  \\
+			
+			& US\_ACELswm & no cost channel as in \cite{TaylorWieland2011} (mon. pol. shock) \\
+			
+			& US\_ACELswt & no cost channel as in \cite{TaylorWieland2011} (tech. shocks) \\
+			
+			& US\_ACELt & \cite{AltigChristianoEichenbaumLinde2005}, (technology shocks) \\
+			
+			2.2 & US\_AJ16 & \cite{ajello2016financial}\\
+			2.3 & US\_BB18 & \cite{balke2018oil}\\
+			2.4	&	US\_BKM12	&	\cite{bils2012reset}\\	
+			2.5&	US\_CCF12	&	\cite{chen2012macroeconomic}\\								
+			2.6	&	US\_CCTW10	&	\cite{SmetsWouters2007}	model	with	rule-of-thumb	consumers,\\					
+			&&	estimated	by	\cite{CoganCwikTaylorWieland2010}\\
+			2.7	&	US\_CD08	&	\cite{ChristensenDib2008}	\\
+			2.8	&	US\_CET15	&	\cite{christiano2015eichenbaum}\\									
+			2.9	&	US\_CFOP14	&	\cite{Carlstrometal2014}\\									
+			2.10	&	US\_CFP17exo	&	\cite{carlstrom2017targeting}	-	exogenous	level	of	long-term	debt\\			
+			&	US\_CFP17endo	&	\cite{carlstrom2017targeting}	-	endogenous	level	of	long-term	debt\\			
+			2.11	&	US\_CMR10	&	\cite{Christianoetal2010}	\\								
+			&	US\_CMR10fa	&	\cite{Christianoetal2010}	-	small	version	with	financial	accelerator	\\		
+			2.12	&	US\_CMR14	$	\footnotemark[3]$	&	\cite{CMR2014}	\\					
+			&	US\_CMR14noFA	$	\footnotemark[3]$	&	\cite{CMR2014}-Version	without	financial	frictions	\\		
+			2.13	&	US\_CPS10	&	\cite{Cogleyetal2010}	\\								
+			
+			2.14	&	US\_DG08	&	\cite{DeGraeve2008}	\\															
+			2.15	&	US\_DNGS15	&	\cite{del2015inflation}	\\								
+			&	US\_DNGS15\_SW	&	\cite{del2015inflation}	w/o	financial	frictions\\						
+			&	US\_DNGS15\_SWpi	&	\cite{del2015inflation}	w/o	financial	frictions	and	time-varying	inflation	target	\\	
+			&	US\_DNGS15\_SWSP	&	\cite{del2015inflation}	reestimation	of	\cite{SmetsWouters2007}	\\					
+			&	&	with	longer	time-series	\\							
+			
+			2.16	&	US\_FGKR15	&	\cite{FernandezVillaverdeetal2015}	\\								
+			2.17	&	US\_FM95	&	\cite{FuhrerMoore1995}	\\								
+			2.18	&	US\_FMS13	&	\cite{Feveetal2013}	\\								
+			2.19	&	US\_FRB03	&	Federal	Reserve	Board	model	linearized	as	in	\cite{LevinWielandWilliams2003}	\\	
+			2.20\footnotemark[1]	&	US\_FRB08	&	linearized	by	\cite{BraytonLaubach2008}\\%	-	(no	replication	package)\\			
+			&	US\_FRB08mx	&	linearized	by	\cite{BraytonLaubach2008},	(mixed	expectations)	\\			
+			2.21& US\_FRB22\_mceall & \cite{brayton2022linver}: all expectations are model consistent\\
+			& US\_FRB22\_mcapwp & \cite{brayton2022linver}: financial market, wage and price \\&&expectations are model consistent, other expectations are based on a small VAR\\
+			& US\_FRB22\_mcap & \cite{brayton2022linver}: financial market expectations are model\\&& consistent, other expectations are based on a small VAR\\
+			& US\_FRB22\_var & \cite{brayton2022linver}: all expectations are based on VAR predictions\\
+			2.22	&	US\_FU19	&	\cite{fratto2019uhlig}	\\								
+			2.23	&	US\_FV10	&	\cite{fernandez2010econometrics}\\									
+			2.24	&	US\_FV15	&	\cite{fernandez2015estimating}\\									
+			2.25	&	US\_HL16	&	\cite{hollander2016liu}	\\								
+			2.26	&	US\_IAC05	&	\cite{Iacoviello2005}	\\								
+			2.27	&	US\_IN10	&	\cite{IacovielloNeri2010}	\\								
+			2.28	&	US\_IR11	&	\cite{Ireland2011}	\\								
+			2.29	&	US\_IR15	&	\cite{ireland2015monetary}\\									
+											
+			&&\\	
+			%\ref{USNFED08}  & US\_NFED08 $^{\ast}$ & based on \cite{EdgeKileyLaforte2007}, version used for estimation in \\
+			%& &  \cite{WielandWolters2011} \\
+			\hline \hline
+		\end{tabularx} 
+	\end{table}
+	%\footnotesize \noindent %$^{\ast}$ Currently only in the DYNARE 3 version. Those models are excluded from counting the number of models available in the MMB 2.3.$ ^{\ast \ast}$ Solving these models requires the MATLAB Statistics Toolbox.
+	
+	\vspace{-1cm}
+	
+	\begin{table}[H]
+		%\caption{\textsc{Models Currently Available in the Data Base (May 2009)}}
+		%\vspace{.2cm}
+		%\label{tab:modov}
+		\begin{tabularx}{\textwidth}{lll}
+			\hline \hline
+			&& \\
+			\multicolumn{3}{l}{\textsc{2. Estimated US Models (continued)}} \\
+			2.30	&	US\_JPT11	&	\cite{Justinianoetal2011}\\	
+			2.31	&	US\_KK14	&	\cite{kliem2014kriwoluzky}	\\								
+			2.32	&	US\_KS15	&	\cite{kriwoluzky2015stoltenberg}	\\								
+			2.33	&	US\_LTW17	&	\cite{leeper2017traum}	\\								
+			&	US\_LTW17gz &	\cite{leeper2017traum} - different fiscal rule\\		
+						&	US\_LTW17nu &	\cite{leeper2017traum} - no government consumption in utility function\\											
+			&	US\_LTW17rot &	\cite{leeper2017traum} - rule of thumb consumers\\											
+			
+			2.34	&	US\_LWY13	&	\cite{leeper2013fiscal}\\									
+			2.35\footnotemark[1]	&	US\_MI07	&	\cite{Milani2007}\\%	-	(no	replication	package)	\\								
+			2.36	&	US\_MR07	&	\cite{MankiwReis2007}	\\								
+			2.37\footnotemark[1]	&	US\_OR03	&	\cite{Orphanides2003}\\%	-	(no	replication	package)\\		
+			
+			2.38	&	US\_OW98	&	\cite{OrphanidesWieland1998}	equivalent	to	MSR	model	in	\\			
+			&	&	\cite{LevinWielandWilliams2003}	\\			
+			2.39\footnotemark[1]	&	US\_PM08	&	IMF	projection	model	US,	\cite{Carabenciovetal2008}\\%	-	(no	replication	package)	\\				
+			2.40	&	US\_PM08fl	&	IMF	projection	model	US	(financial	linkages),\cite{Carabenciovetal2008}	\\			
+			2.41	&	US\_PV15	&	\cite{poutineau2015financial}	\\								
+			2.42	&	US\_RA07	&	\cite{Rabanal2007}	\\								
+			2.43	&	US\_RE09	&	\cite{reis2009sticky}\\									
+			2.44\footnotemark[1]	&	US\_RS99	&	\cite{RudebuschSvensson1999}\\%	-	(no	replication	package)\\					
+			2.45	&	US\_SW07	&	\cite{SmetsWouters2007}	\\								
+			2.46	&	US\_VI16bgg	&	\cite{villa2016} - with \cite{BernankeGertlerGilchrist1999} financial accelerator \\								
+			&	US\_VI16gk &	\cite{villa2016} - with \cite{GertlerKaradi2013} financial friction  \\											
+			2.47\footnotemark[1]	&	US\_VMDno	&	Verona,	Martins	and	Drumond	(\cite{Veronaetal2013})	-	Normal	times\\%		-	(no	replication	package)\\	
+			2.48\footnotemark[1]	&	US\_VMDop	&	Verona,	Martins	and	Drumond	(\cite{Veronaetal2013})	-	Optimistic	times\\%		-	(no	replication	package)\\	
+			2.49\footnotemark[1]	&	US\_YR13	&	\cite{rychalovska2016}\\%	-	(no	replication	package)	\\							
+			
+			
+			&& \\		
+			%	\multicolumn{3}{l}{\textsc{3. Estimated Euro Area Models (20 models)}} \\
+			\multicolumn{3}{l}{\textsc{3. Estimated Euro Area Models (\the\value{EAnumber} models)}} \\
+			
+			
+			3.1	&	EA\_ALSV06	&	\cite{andres2006lopezsalido}	\\										
+			3.2	&	EA\_AWM05	&	ECB's	area-wide	model	linearized	as	in	\cite{DieppeKuesterMcAdam2005}\\					
+			%and	\cite{KuesterWieland2005}	\\												
+			
+			3.3	&	EA\_BE15	&	\cite{benchimol2015money}	\\										
+			3.4	&	EA\_BF17	&	\cite{benchimol2017money}	\\	
+			3.5\footnotemark[1]	&	EA\_CKL09	&	\cite{ChristoffelKuesterLinzert2009}\\%	-	(no	replication	package)	\\										
+			3.6	&	EA\_CW05ta	&	\cite{CoenenWieland2005},	(Taylor-staggered	contracts)	\\								
+			&	EA\_CW05fm	&	\cite{CoenenWieland2005},	(Fuhrer-Moore-staggered	contracts)	\\								
+			3.7	&	EA\_DKR11	&	\cite{DarracqPariesetal2011}	\\										
+			3.8	&	EA\_GE10	&	\cite{Gelain2010}	\\										
+			3.9	&	EA\_GNSS10	&	\cite{Geralietal2010}	\\										
+			3.10	&	EA\_PV15	&	\cite{poutineau2015cross}	\\										
+			3.11	&	EA\_PV16	&	\cite{priftis2016portfolio}	\\										
+			3.12	&	EA\_PV17	&	\cite{priftis2017macroecon}	\\										
+			3.13	&	EA\_QR14	$\footnotemark[3]$	&	\cite{QR2014}	\\							
+			3.14	&	EA\_QUEST3	&	QUEST	III	Euro	Area	Model	of	the	DG-ECFIN	EU,	\cite{RattoRoegerVeld2009}	\\	
+			3.15	&	EA\_SR07	&	Sveriges	Riksbank	euro	area	model	of	\cite{AdolfsonLaseenLindeVillani2007}\\					
+			3.16	&	EA\_SW03	&	\cite{SmetsWouters2003}	\\										
+			3.17	&	EA\_SWW14	&	\cite{smets2014warne}	\\										
+			3.18	&	EA\_VI16bgg	&	\cite{villa2016} - with \cite{BernankeGertlerGilchrist1999} financial accelerator \\										
+			&	EA\_VI16gk	&	\cite{villa2016} - with \cite{GertlerKaradi2013} financial friction  \\										
+
+			%	\multicolumn{3}{l}{\textsc{4. Estimated/Calibrated Multi-Country Models (8 models)}} \\
+			
+			%\ref{CAToTEM10} & CA\_ToTEM10 $ ^{\ast \ast}$  &\cite{MurchisonRennison2006} \\
+			
+			%5.4 & CA\_ToTEM10$^{\ast}$ & ToTEM model of Canada, based on \cite{MurchisonRennison2006}, \\
+			% && 2010 vintage \\
+			
+			
+			%\multicolumn{3}{l}{\textsc{6. Estimated Models with Adaptive Learning}} \\
+			% \ref{USMI07AL} & US\_MI07AL & Milani (2007), Adaptive Learning version \\
+			
+			\hline \hline
+			\vspace{-0.2cm}
+		\end{tabularx} 
+	\end{table}
+	%\footnotesize \noindent  $^{\ast }$ Currently only in the DYNARE 3 version. Those models are excluded from counting the number of models available in the MMB 2.3. $ ^{\ast \ast}$ Solving these models requires the MATLAB Statistics Toolbox. \\
+	
+	\vspace{-1cm}
+	
+	\begin{table}[H]
+		%\caption{\textsc{Models Currently Available in the Data Base (May 2009)}}
+		%\vspace{.2cm}
+		%\label{tab:modov}
+		\begin{tabularx}{\textwidth}{lll}
+			\hline \hline
+			&& \\
+		\multicolumn{3}{l}{\textsc{4. Estimated/Calibrated Multi-Country Models (\the\value{MCnumber} models)}} \\
+		
+		4.1& DEREA\_GEAR16 & \cite{gadatsch2016fiscal} model of Germany, EMU, and RoW\\
+		4.2 & ESREA\_FIMOD12 & \cite{stahler2012fimod} model of Spain and EMU\\
+			4.3& G2\_SIGMA08 & The Federal Reserve's SIGMA model from \cite{ErcegGuerrieriGust2008}\\
+			& & calibrated to the U.S. economy and a symmetric twin.\\
+			4.4 & G3\_CW03 & \cite{CoenenWieland2002} model of USA, Euro Area and Japan \\
+			
+			4.5 & G7\_TAY93 & \cite{Taylor1993a} model of G7 economies \\
+			
+			4.6 & GPM6\_IMF13 & IMF global projection model with 6 regions \cite{Carabenciovetal2013}\\
+			
+			4.7 & EACZ\_GEM03 & \cite{LaxtonPesenti2003} model calibrated to Euro Area and Czech republic\\
+			
+			4.8 & EAES\_RA09 & \cite{Rabanal2009}\\
+			
+			4.9 & EAUS\_NAWM08 & \cite{CoenenMcAdamStraub2008}, New Area Wide model of Euro Area and USA \\
+			
+			4.10\footnotemark[1] & EAUS\_NAWMctww & \cite{CoganTaylorWielandWolters2013}	\\%-	(no	replication	package)\\
+			&&\\
+			%\multicolumn{3}{l}{\textsc{5. Estimated Models of other Countries (12 models)}} \\
+			\multicolumn{3}{l}{\textsc{5. Estimated Models of other Countries (\the\value{OCnumber} models)}} \\
+			
+			5.1 & BRA\_SAMBA08 & \cite{Gouveaetal2008}, model of the Brazilian economy \\
+			5.2 & CA\_BMZ12 & \cite{Bailliuetal2012}  \\
+			
+			5.3 & CA\_LS07 & \cite{LubikSchorfheide2007},\\
+			&& small-scale open-economy model of the Canadian economy \\
+			
+			5.4\footnotemark[1] & CA\_TOTEM10 & \cite{murchison2006rennison}, Terms of Trade Economic Model of Canada\\% 	-	(no	replication	package)\\
+			
+			5.5 & CL\_MS07 & \cite{MedinaSoto2007}, model of the Chilean economy \\
+			
+			5.6 & FI\_AINO16 & \cite{kilponen2016aino}, the AINO II model \\
+			
+			5.7\footnotemark[1] & HK\_FPP11 & \cite{FunkePaetzPytlarczyk2011}, open-economy model of the Hong Kong economy\\% 	-	(no	replication	package)\\
+			5.8 & HK\_FP13 & \cite{FunkePaetz2013}, open-economy model of the Hong Kong economy \\
+			5.9&UK\_SM11 & \cite{millard2011estimated}, open-economy model of the United Kingdom with energy\\
+			%5.9 & ESP\_MP17 & \cite{martin2017philippon}, model of the Spanish economy \\
+			%    & GRC\_MP17 & \cite{martin2017philippon}, model of the Greek economy \\
+			%    & IRL\_MP17 & \cite{martin2017philippon}, model of the Irish economy \\
+			%		& PRT\_MP17 & \cite{martin2017philippon}, model of the Portuguese economy \\
+			&& \\
+			
+			%\multicolumn{3}{l}{\textsc{6. Adaptive Learning Models (11 Models)} } \\
+			\multicolumn{3}{l}{\textsc{6. Adaptive Learning Models (\the\value{ALnumber} Models)} } \\
+			
+			
+			6.1\footnotemark[1] &  NK\_BGG99AL & Adaptive learning version of \cite{BernankeGertlerGilchrist1999}\\%  - (no replication package)  \\
+			6.2\footnotemark[1] &  NK\_CGG99AL & Adaptive learning version of \cite{ClaridaGaliGertler1999}\\%  - (no replication package) \\
+			6.3\footnotemark[1] &  NK\_CGG02AL & Adaptive learning version of \cite{ClaridaGaliGertler2002}\\%  - (no replication package) \\
+			6.4\footnotemark[1] &  NK\_IR04AL & Adaptive learning version of  \cite{Ireland2004}\\%  - (no replication package) \\
+			6.5\footnotemark[1] & NK\_LWW03AL & Adaptive learning version of  \cite{LevinWielandWilliams2003}\\%   - (no replication package) \\
+			6.6\footnotemark[1] & NK\_RW97AL & Adaptive learning version of \cite{RotembergWoodford1997}\\%   - (no replication package) \\
+			6.7\footnotemark[1] & NK\_RW06AL & Adaptive learning version of \cite{RavennaWalsh2006}\\%  - (no replication package) \\
+			6.8\footnotemark[1] & US\_FM95AL & Adaptive learning version of  \cite{FuhrerMoore1995}\\%  - (no replication package) \\
+			6.9\footnotemark[1] &  US\_MI07AL & \cite{Milani2007}\\%  - (no replication package)\\
+			6.10\footnotemark[1] & US\_SW07AL & \cite{Slobodyan2012} \\
+			6.11\footnotemark[1] & US\_YR13AL & \cite{rychalovska2016}\\%  - (no replication package)\\
+			
+			
+			&&\\
+			%5.4 & CA\_ToTEM10$^{\ast}$ & ToTEM model of Canada, based on \cite{MurchisonRennison2006}, \\
+			% && 2010 vintage \\
+			
+			
+			%\multicolumn{3}{l}{\textsc{6. Estimated Models with Adaptive Learning}} \\
+			% \ref{USMI07AL} & US\_MI07AL & Milani (2007), Adaptive Learning version \\
+			
+			\hline \hline
+			\vspace{-0.5cm}
+		\end{tabularx} 
+	\end{table}
+	
+	\noindent\footnotemark[1] For several models that are implemented in the MMB, there is currently no replication package available for download. These models are: NK\_CGG99, NK\_CGG02, NK\_CK08, NK\_CKL09, NK\_LWW03,  NK\_MCN99cr, NK\_RW06, NK\_RW97, US\_FRB08, US\_MI07, US\_PM08, US\_OR03, US\_RS99, US\_VMDno, US\_VMDop, US\_YR13, EA\_CKL09, EAUS\_NAWMctww, HL\_FPP11, NK\_BGG99AL, NK\_CGG99AL, NK\_CGG02AL, NK\_IR04AL, NK\_LWW03AL, NK\_RW97AL, NK\_RW06AL, US\_FM96AL,  US\_MI07AL, US\_SW07AL, and US\_YR13AL.\\ 
+	
+	%\footnotesize \noindent  $^{\ast }$ Currently only in the DYNARE 3 version. Those models are excluded from counting the number of models available in the MMB 2.3. $ ^{\ast \ast}$ Solving these models requires the MATLAB Statistics Toolbox. \\
+	
+	\noindent \footnotemark[2] Solving this model requires the MATLAB Optimization Toolbox.\\
+	
+	\noindent \footnotemark[3] Solving these models requires the Statistics Toolbox for MATLAB or the statistics and io package for Octave, respectively.
+	
+	
+	
+	%A description of the structure and the most important features of the different models in the macro model data base.
+	
+	%We illustrate the implications of the model features by plotting impulse response functions to a
+	%one unit monetary policy shock. We use the simple rule by \cite{Taylor1993} as it lacks interest
+	%rate smoothing and therefore most clearly shows the differences in the persistence of the different
+	%models. In addition we show impulse responses using the more realistic interest rule
+	%by \cite{LevinWielandWilliams2003} which has a high degree of interest rate smoothing.
+	%We also show impulse responses to fiscal policy shocks or more general demand shocks if the
+	%model does not include a government sector.
+	%Most models assume that expectations of future realizations of model variables such as for example future exchange rates, prices, interest rates, wages and income are formed in a model-consistent, rational manner.  A few models assume backward-looking expectations formation, in particular the models from Rudebusch and Svensson (1999) and Orphanides (2003).
+	%The FRB-US model Only one
+	%version of the FRB model features expectations that are formed using a VAR as described %below.
+	%Most, but not all models are linear, or linear approximations of nonlinear models. In this case the variables appear as percentage deviations from
+	%their steady state values.  There are many differences in model structure, in terms of size, in terms of countries covered, or the extent of microeconomic foundations considered. \\
+	%The models have different kinds of price rigidities like the one proposed
+	%by \cite{Taylor1980}, \cite{FuhrerMoore1995} or \cite{Calvo1983}. The models range from closed
+	%economy three equation models to disaggregated multi-country models.\\
+	
+	
+	
+	\newpage
+	%\section*{References}
+	\setlength{\bibsep}{0.4\baselineskip}
+	%\newcommand{\bibpreamble}{\vspace{-0.5\baselineskip}}
+	\bibliographystyle{elsarticle-harv}
+	\bibliography{../dynaremodelbase.bib}
+	
+	
+	
+\end{document} 

@@ -1,0 +1,103 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Christiano et~al.(2005)Christiano, Eichenbaum and
+  Evans}]{ChristianoEichenbaumEvans2005}
+\bibinfo{author}{Christiano, L.J.}, \bibinfo{author}{Eichenbaum, M.},
+  \bibinfo{author}{Evans, C.L.}, \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{Nominal rigidities and the dynamic effects of a shock
+  to monetary policy}.
+\newblock \bibinfo{journal}{Journal of Political Economy}
+  \bibinfo{volume}{113(1)}, \bibinfo{pages}{1--45}.
+%Type = Article
+\bibitem[{Christiano et~al.(2014)Christiano, Motto and Rostagno}]{CMR2014}
+\bibinfo{author}{Christiano, L.J.}, \bibinfo{author}{Motto, R.},
+  \bibinfo{author}{Rostagno, M.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Risk shocks}.
+\newblock \bibinfo{journal}{American Economic Review} \bibinfo{volume}{104},
+  \bibinfo{pages}{27--65}.
+%Type = Article
+\bibitem[{Coenen et~al.(2012)Coenen, J., Freedman, Furceri, Kumhof, Lalonde,
+  Laxton, Linde, Mourougane, Muir, Mursula, de~Resende, Roberts, Roeger,
+  Snudden, Trabandt and in't Veld}]{Coenenetal2012}
+\bibinfo{author}{Coenen, G.}, \bibinfo{author}{J., C.},
+  \bibinfo{author}{Freedman, C.}, \bibinfo{author}{Furceri, D.},
+  \bibinfo{author}{Kumhof, M.}, \bibinfo{author}{Lalonde, R.},
+  \bibinfo{author}{Laxton, D.}, \bibinfo{author}{Linde, J.},
+  \bibinfo{author}{Mourougane, A.}, \bibinfo{author}{Muir, D.},
+  \bibinfo{author}{Mursula, S.}, \bibinfo{author}{de~Resende, C.},
+  \bibinfo{author}{Roberts, J.}, \bibinfo{author}{Roeger, W.},
+  \bibinfo{author}{Snudden, S.}, \bibinfo{author}{Trabandt, M.},
+  \bibinfo{author}{in't Veld, J.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Effects of fiscal stimulus in structural models}.
+\newblock \bibinfo{journal}{American Economic Journal: Macroeconomics}
+  \bibinfo{volume}{4}, \bibinfo{pages}{22--68}.
+%Type = Article
+\bibitem[{Gerdesmeier and Roffia(2004)}]{GerdesmeierRoffia2004}
+\bibinfo{author}{Gerdesmeier, D.}, \bibinfo{author}{Roffia, B.},
+  \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{Empirical estimates of reaction functions for the
+  euro area}.
+\newblock \bibinfo{journal}{Swiss Journal of Economics and Statistics}
+  \bibinfo{volume}{140(1)}, \bibinfo{pages}{37--66}.
+%Type = Article
+\bibitem[{Levin et~al.(2003)Levin, Wieland and
+  Williams}]{LevinWielandWilliams2003}
+\bibinfo{author}{Levin, A.}, \bibinfo{author}{Wieland, V.},
+  \bibinfo{author}{Williams, J.C.}, \bibinfo{year}{2003}.
+\newblock \bibinfo{title}{The performance of forecast-based monetary policy
+  rules under model uncertainty}.
+\newblock \bibinfo{journal}{The American Economic Review}
+  \bibinfo{volume}{93(3)}, \bibinfo{pages}{622--645}.
+%Type = Article
+\bibitem[{Orphanides and Wieland(2008)}]{OrphanidesWieland2008}
+\bibinfo{author}{Orphanides, A.}, \bibinfo{author}{Wieland, V.},
+  \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{Economic projections and rules of thumb for monetary
+  policy}.
+\newblock \bibinfo{journal}{Fed of St. Louis Review} ,
+  \bibinfo{pages}{307--324}.
+%Type = Article
+\bibitem[{Orphanides and Wieland(2013)}]{OrphanidesWieland2013}
+\bibinfo{author}{Orphanides, A.}, \bibinfo{author}{Wieland, V.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Complexity and monetary policy}.
+\newblock \bibinfo{journal}{Journal of International Central Banking}
+  \bibinfo{volume}{9(1)}, \bibinfo{pages}{167--204}.
+%Type = Article
+\bibitem[{Slobodyan and Wouters(2012)}]{Slobodyan2012}
+\bibinfo{author}{Slobodyan, S.}, \bibinfo{author}{Wouters, R.},
+  \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{{Learning in an estimated medium-scale DSGE model}}.
+\newblock \bibinfo{journal}{Journal of Economic Dynamics and Control}
+  \bibinfo{volume}{36}, \bibinfo{pages}{26--46}.
+\newblock \URLprefix
+  \url{https://ideas.repec.org/a/eee/dyncon/v36y2012i1p26-46.html},
+  \DOIprefix\doi{10.1016/j.jedc.2011.01.01}.
+%Type = Article
+\bibitem[{Smets and Wouters(2007)}]{SmetsWouters2007}
+\bibinfo{author}{Smets, F.}, \bibinfo{author}{Wouters, R.},
+  \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{Shocks and frictions in {US} business cycles: A
+  bayesian {DSGE} approach}.
+\newblock \bibinfo{journal}{The American Economic Review}
+  \bibinfo{volume}{97(3)}, \bibinfo{pages}{586--606}.
+%Type = Article
+\bibitem[{Taylor(1993)}]{Taylor1993}
+\bibinfo{author}{Taylor, J.B.}, \bibinfo{year}{1993}.
+\newblock \bibinfo{title}{Discretion versus policy rules in practice}.
+\newblock \bibinfo{journal}{Carnegie-Rochester Conference Series on Public
+  Policy} \bibinfo{volume}{39}, \bibinfo{pages}{195--214}.
+
+\end{thebibliography}

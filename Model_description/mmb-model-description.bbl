@@ -1,0 +1,1349 @@
+\begin{thebibliography}{173}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Adam and Billi(2006)}]{adam2006optimal}
+\bibinfo{author}{Adam, K.}, \bibinfo{author}{Billi, R.M.},
+  \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{Optimal monetary policy under commitment with a zero
+  bound on nominal interest rates}.
+\newblock \bibinfo{journal}{Journal of Money, credit, and Banking}
+  \bibinfo{volume}{38}, \bibinfo{pages}{1877--1905}.
+%Type = Article
+\bibitem[{Adolfson et~al.(2007)Adolfson, Laseen, Linde and
+  Villani}]{AdolfsonLaseenLindeVillani2007}
+\bibinfo{author}{Adolfson, M.}, \bibinfo{author}{Laseen, S.},
+  \bibinfo{author}{Linde, J.}, \bibinfo{author}{Villani, M.},
+  \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{Bayesian estimation of an open economy {DSGE} model
+  with incomplete pass-through}.
+\newblock \bibinfo{journal}{Journal of International Economics}
+  \bibinfo{volume}{72}, \bibinfo{pages}{481--511}.
+%Type = Article
+\bibitem[{Ajello(2016)}]{ajello2016financial}
+\bibinfo{author}{Ajello, A.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Financial intermediation, investment dynamics, and
+  business cycle fluctuations}.
+\newblock \bibinfo{journal}{American Economic Review} \bibinfo{volume}{106},
+  \bibinfo{pages}{2256--2303}.
+%Type = Unpublished
+\bibitem[{Altig et~al.(2005)Altig, Christiano, Eichenbaum and
+  Linde}]{AltigChristianoEichenbaumLinde2005}
+\bibinfo{author}{Altig, D.E.}, \bibinfo{author}{Christiano, L.J.},
+  \bibinfo{author}{Eichenbaum, M.}, \bibinfo{author}{Linde, J.},
+  \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{Firm-specific capital, nominal rigidities and the
+  business cycle}.
+\newblock \bibinfo{note}{CEPR Discussion Papers 4858}.
+%Type = Article
+\bibitem[{An and Schorfheide(2007)}]{an2007bayesian}
+\bibinfo{author}{An, S.}, \bibinfo{author}{Schorfheide, F.},
+  \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{Bayesian analysis of dsge models}.
+\newblock \bibinfo{journal}{Econometric reviews} \bibinfo{volume}{26},
+  \bibinfo{pages}{113--172}.
+%Type = Article
+\bibitem[{Andr{\'e}s et~al.(2006)Andr{\'e}s, L{\'o}pez-Salido and
+  Vall{\'e}s}]{andres2006lopezsalido}
+\bibinfo{author}{Andr{\'e}s, J.}, \bibinfo{author}{L{\'o}pez-Salido, J.D.},
+  \bibinfo{author}{Vall{\'e}s, J.}, \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{Money in an estimated business cycle model of the
+  euro area}.
+\newblock \bibinfo{journal}{Economic Journal} \bibinfo{volume}{116},
+  \bibinfo{pages}{457--477}.
+%Type = Article
+\bibitem[{Angeloni et~al.(2015)Angeloni, Faia and Lo~Duca}]{Angelonietal2015}
+\bibinfo{author}{Angeloni, I.}, \bibinfo{author}{Faia, E.},
+  \bibinfo{author}{Lo~Duca, M.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Monetary policy and risk taking}.
+\newblock \bibinfo{journal}{Journal of Economic Dynamics \& Control}
+  \bibinfo{volume}{52}, \bibinfo{pages}{285--307}.
+%Type = Article
+\bibitem[{Arseneau and Leduc(2013)}]{arseneau2013commodity}
+\bibinfo{author}{Arseneau, D.M.}, \bibinfo{author}{Leduc, S.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Commodity price movements in a general equilibrium
+  model of storage}.
+\newblock \bibinfo{journal}{IMF Economic Review} \bibinfo{volume}{61},
+  \bibinfo{pages}{199--224}.
+%Type = Article
+\bibitem[{Bailliu et~al.(2012)Bailliu, Meh and Zhang}]{Bailliuetal2012}
+\bibinfo{author}{Bailliu, J.}, \bibinfo{author}{Meh, C.},
+  \bibinfo{author}{Zhang, Y.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Macroprudential rules and monetary policy when
+  financial frictions matter}.
+\newblock \bibinfo{journal}{Bank of Canada Working Paper 2012-6} .
+%Type = Article
+\bibitem[{Balke and Brown(2018)}]{balke2018oil}
+\bibinfo{author}{Balke, N.S.}, \bibinfo{author}{Brown, S.P.},
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Oil supply shocks and the us economy: An estimated
+  dsge model}.
+\newblock \bibinfo{journal}{Energy policy} \bibinfo{volume}{116},
+  \bibinfo{pages}{357--372}.
+%Type = Article
+\bibitem[{Benchimol(2015)}]{benchimol2015money}
+\bibinfo{author}{Benchimol, J.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Money in the production function: A new keynesian
+  dsge perspective}.
+\newblock \bibinfo{journal}{Southern Economic Journal} \bibinfo{volume}{82},
+  \bibinfo{pages}{152--184}.
+%Type = Article
+\bibitem[{Benchimol and Four\c{c}ans(2017)}]{benchimol2017money}
+\bibinfo{author}{Benchimol, J.}, \bibinfo{author}{Four\c{c}ans, A.},
+  \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Money and monetary policy in the eurozone: An
+  empirical analysis during crises}.
+\newblock \bibinfo{journal}{Macroeconomic Dynamics} \bibinfo{volume}{21},
+  \bibinfo{pages}{677--707}.
+%Type = Article
+\bibitem[{Bernanke and Gertler(1989)}]{bernanke1989agency}
+\bibinfo{author}{Bernanke, B.}, \bibinfo{author}{Gertler, M.},
+  \bibinfo{year}{1989}.
+\newblock \bibinfo{title}{Agency costs, collateral, and business fluctuations}.
+\newblock \bibinfo{journal}{American Economic Review} \bibinfo{volume}{79},
+  \bibinfo{pages}{14--31}.
+%Type = Article
+\bibitem[{Bernanke et~al.(1996)Bernanke, Gertler and
+  Gilchrist}]{bernanke1996financial}
+\bibinfo{author}{Bernanke, B.}, \bibinfo{author}{Gertler, M.},
+  \bibinfo{author}{Gilchrist, S.}, \bibinfo{year}{1996}.
+\newblock \bibinfo{title}{The financial accelerator and the flight to quality}.
+\newblock \bibinfo{journal}{The Review of Economics and Statistics}
+  \bibinfo{volume}{78}, \bibinfo{pages}{1--15}.
+%Type = Incollection
+\bibitem[{Bernanke et~al.(1999)Bernanke, Gertler and
+  Gilchrist}]{BernankeGertlerGilchrist1999}
+\bibinfo{author}{Bernanke, B.}, \bibinfo{author}{Gertler, M.},
+  \bibinfo{author}{Gilchrist, S.}, \bibinfo{year}{1999}.
+\newblock \bibinfo{title}{The financial accelerator in a quantitative business
+  cycles framework}, in: \bibinfo{editor}{Taylor, J.B.},
+  \bibinfo{editor}{Woodford, M.} (Eds.), \bibinfo{booktitle}{Handbook of
+  Macroeconomics Volume 1C}. \bibinfo{publisher}{Amsterdam: Elsevier Science,
+  North-Holland}, pp. \bibinfo{pages}{1341--1393}.
+%Type = Article
+\bibitem[{Bils et~al.(2012)Bils, Klenow and Malin}]{bils2012reset}
+\bibinfo{author}{Bils, M.}, \bibinfo{author}{Klenow, P.J.},
+  \bibinfo{author}{Malin, B.A.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Reset price inflation and the impact of monetary
+  policy shocks}.
+\newblock \bibinfo{journal}{American Economic Review} \bibinfo{volume}{102},
+  \bibinfo{pages}{2798--2825}.
+%Type = Article
+\bibitem[{Blanchard and Gal{\'\i}(2010)}]{BlanchardGali10}
+\bibinfo{author}{Blanchard, O.}, \bibinfo{author}{Gal{\'\i}, J.},
+  \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{Labor markets and monetary policy: A new keynesian
+  model with unemployment}.
+\newblock \bibinfo{journal}{American Economic Journal: Macroeconomics}
+  \bibinfo{volume}{2}, \bibinfo{pages}{1--30}.
+%Type = Misc
+\bibitem[{Blanchard and Gali(2007)}]{blanchard2007macroeconomic}
+\bibinfo{author}{Blanchard, O.J.}, \bibinfo{author}{Gali, J.},
+  \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{The macroeconomic effects of oil shocks: Why are the
+  2000s so different from the 1970s?}
+%Type = Article
+\bibitem[{Boivin and Giannoni(2006)}]{boivin2006has}
+\bibinfo{author}{Boivin, J.}, \bibinfo{author}{Giannoni, M.P.},
+  \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{Has monetary policy become more effective?}
+\newblock \bibinfo{journal}{The Review of Economics and Statistics}
+  \bibinfo{volume}{88}, \bibinfo{pages}{445--462}.
+%Type = Unpublished
+\bibitem[{Brayton and Laubach(2008)}]{BraytonLaubach2008}
+\bibinfo{author}{Brayton, F.}, \bibinfo{author}{Laubach, T.},
+  \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{Documentation of linearized {FRB/US}}.
+\newblock \bibinfo{note}{This is a note to switch of the warning}.
+%Type = Article
+\bibitem[{Brayton et~al.(2014)Brayton, Laubach and
+  Reifschneider}]{brayton2014frb}
+\bibinfo{author}{Brayton, F.}, \bibinfo{author}{Laubach, T.},
+  \bibinfo{author}{Reifschneider, D.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{The frb/us model: A tool for macroeconomic policy
+  analysis}.
+\newblock \bibinfo{journal}{FEDS Notes} , \bibinfo{pages}{03}.
+%Type = Article
+\bibitem[{Brayton and Reifschneider(2022)}]{brayton2022linver}
+\bibinfo{author}{Brayton, F.}, \bibinfo{author}{Reifschneider, D.},
+  \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Linver: The linear version of frb/us} .
+%Type = Article
+\bibitem[{Calvo(1983)}]{Calvo1983}
+\bibinfo{author}{Calvo, G.}, \bibinfo{year}{1983}.
+\newblock \bibinfo{title}{Staggered prices in a utility maximizing framework}.
+\newblock \bibinfo{journal}{Journal of Monetary Economics}
+  \bibinfo{volume}{12}, \bibinfo{pages}{383--398}.
+%Type = Unpublished
+\bibitem[{Carabenciov et~al.(2008a)Carabenciov, Ermolaev, Freedman, Juillard,
+  Kamenik, Korshunov and Laxton}]{Carabenciovetal2008}
+\bibinfo{author}{Carabenciov, I.}, \bibinfo{author}{Ermolaev, I.},
+  \bibinfo{author}{Freedman, C.}, \bibinfo{author}{Juillard, M.},
+  \bibinfo{author}{Kamenik, O.}, \bibinfo{author}{Korshunov, D.},
+  \bibinfo{author}{Laxton, D.}, \bibinfo{year}{2008}a.
+\newblock \bibinfo{title}{A small quarterly projection model of the {US}
+  economy}.
+\newblock \bibinfo{note}{IMF Working Paper 08/278}.
+%Type = Unpublished
+\bibitem[{Carabenciov et~al.(2008b)Carabenciov, Ermolaev, Freedman, Juillard,
+  Kamenik, Korshunov, Laxton and Laxton}]{Carabenciovetal20082}
+\bibinfo{author}{Carabenciov, I.}, \bibinfo{author}{Ermolaev, I.},
+  \bibinfo{author}{Freedman, C.}, \bibinfo{author}{Juillard, M.},
+  \bibinfo{author}{Kamenik, O.}, \bibinfo{author}{Korshunov, D.},
+  \bibinfo{author}{Laxton, D.}, \bibinfo{author}{Laxton, J.},
+  \bibinfo{year}{2008}b.
+\newblock \bibinfo{title}{A small quarterly multi-country projection model}.
+\newblock \bibinfo{note}{IMF Working Paper 08/279}.
+%Type = Article
+\bibitem[{Carabenciov et~al.(2013)Carabenciov, Freedman, Garcia-Saltos, Laxton,
+  Kamenik and Manchev}]{Carabenciovetal2013}
+\bibinfo{author}{Carabenciov, I.}, \bibinfo{author}{Freedman, C.},
+  \bibinfo{author}{Garcia-Saltos, R.}, \bibinfo{author}{Laxton, D.},
+  \bibinfo{author}{Kamenik, O.}, \bibinfo{author}{Manchev, P.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Gpm6 - the global projection model with 6 regions}.
+\newblock \bibinfo{journal}{IMF Working Paper 13/87} .
+%Type = Article
+\bibitem[{Carlstrom and Fuerst(1997)}]{CarlstromFuerst1997}
+\bibinfo{author}{Carlstrom, C.T.}, \bibinfo{author}{Fuerst, T.S.},
+  \bibinfo{year}{1997}.
+\newblock \bibinfo{title}{Agency costs, net worth, and business fluctuations: A
+  computable general equilibrium analysis}.
+\newblock \bibinfo{journal}{American Economic Review} \bibinfo{volume}{87},
+  \bibinfo{pages}{893--910}.
+%Type = Article
+\bibitem[{Carlstrom et~al.(2014)Carlstrom, Fuerst, Ortiz and
+  Paustian}]{Carlstrometal2014}
+\bibinfo{author}{Carlstrom, C.T.}, \bibinfo{author}{Fuerst, T.S.},
+  \bibinfo{author}{Ortiz, A.}, \bibinfo{author}{Paustian, M.},
+  \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Estimating contract indexation in a financial
+  accelerator model}.
+\newblock \bibinfo{journal}{Journal of Economic Dynamics \& Control}
+  \bibinfo{volume}{46}, \bibinfo{pages}{130--194}.
+%Type = Article
+\bibitem[{Carlstrom et~al.(2010)Carlstrom, Fuerst and
+  Paustian}]{carlstrom2010optimal}
+\bibinfo{author}{Carlstrom, C.T.}, \bibinfo{author}{Fuerst, T.S.},
+  \bibinfo{author}{Paustian, M.}, \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{Optimal monetary policy in a model with agency
+  costs}.
+\newblock \bibinfo{journal}{Journal of Money, credit and Banking}
+  \bibinfo{volume}{42}, \bibinfo{pages}{37--70}.
+%Type = Article
+\bibitem[{Carlstrom et~al.(2017)Carlstrom, Fuerst and
+  Paustian}]{carlstrom2017targeting}
+\bibinfo{author}{Carlstrom, C.T.}, \bibinfo{author}{Fuerst, T.S.},
+  \bibinfo{author}{Paustian, M.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Targeting long rates in a model with segmented
+  markets}.
+\newblock \bibinfo{journal}{American Economic Journal: Macroeconomics}
+  \bibinfo{volume}{9}, \bibinfo{pages}{205--42}.
+%Type = Article
+\bibitem[{Chan et~al.(2024)Chan, Diz and Kanngiesser}]{chan2024energy}
+\bibinfo{author}{Chan, J.}, \bibinfo{author}{Diz, S.},
+  \bibinfo{author}{Kanngiesser, D.}, \bibinfo{year}{2024}.
+\newblock \bibinfo{title}{Energy prices and household heterogeneity: Monetary
+  policy in a gas-tank}.
+\newblock \bibinfo{journal}{Journal of Monetary Economics} ,
+  \bibinfo{pages}{103620}.
+%Type = Article
+\bibitem[{Chen et~al.(2012)Chen, C{\'u}rdia and
+  Ferrero}]{chen2012macroeconomic}
+\bibinfo{author}{Chen, H.}, \bibinfo{author}{C{\'u}rdia, V.},
+  \bibinfo{author}{Ferrero, A.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{The macroeconomic effects of large-scale asset
+  purchase programmes}.
+\newblock \bibinfo{journal}{The economic journal} \bibinfo{volume}{122},
+  \bibinfo{pages}{F289--F315}.
+%Type = Article
+\bibitem[{Christensen and Dib(2008)}]{ChristensenDib2008}
+\bibinfo{author}{Christensen, I.}, \bibinfo{author}{Dib, A.},
+  \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{The financial accelerator in an estimated {New
+  Keynesian} model}.
+\newblock \bibinfo{journal}{Review of Economic Dynamics} \bibinfo{volume}{11},
+  \bibinfo{pages}{155--178}.
+%Type = Techreport
+\bibitem[{Christiano et~al.(2010a)Christiano, Motto and
+  Rostagno}]{Christianoetal2010}
+\bibinfo{author}{Christiano, L.}, \bibinfo{author}{Motto, R.},
+  \bibinfo{author}{Rostagno, M.}, \bibinfo{year}{2010}a.
+\newblock \bibinfo{title}{Financial factors in economic fluctuations}.
+\newblock \bibinfo{type}{Working Paper Series} \bibinfo{number}{1192}. European
+  Central Bank.
+\newblock \URLprefix \url{http://ideas.repec.org/p/ecb/ecbwps/20101192.html}.
+%Type = Article
+\bibitem[{Christiano et~al.(2005)Christiano, Eichenbaum and
+  Evans}]{ChristianoEichenbaumEvans2005}
+\bibinfo{author}{Christiano, L.J.}, \bibinfo{author}{Eichenbaum, M.},
+  \bibinfo{author}{Evans, C.L.}, \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{Nominal rigidities and the dynamic effects of a shock
+  to monetary policy}.
+\newblock \bibinfo{journal}{Journal of Political Economy}
+  \bibinfo{volume}{113(1)}, \bibinfo{pages}{1--45}.
+%Type = Article
+\bibitem[{Christiano et~al.(2015)Christiano, Eichenbaum and
+  Trabandt}]{christiano2015eichenbaum}
+\bibinfo{author}{Christiano, L.J.}, \bibinfo{author}{Eichenbaum, M.S.},
+  \bibinfo{author}{Trabandt, M.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Understanding the great recession}.
+\newblock \bibinfo{journal}{American Economic Journal: Macroeconomics}
+  \bibinfo{volume}{7}, \bibinfo{pages}{110--167}.
+%Type = Article
+\bibitem[{Christiano et~al.(2016)Christiano, Eichenbaum and
+  Trabandt}]{christiano2016unemployment}
+\bibinfo{author}{Christiano, L.J.}, \bibinfo{author}{Eichenbaum, M.S.},
+  \bibinfo{author}{Trabandt, M.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Unemployment and business cycles}.
+\newblock \bibinfo{journal}{Econometrica} \bibinfo{volume}{84},
+  \bibinfo{pages}{1523--1569}.
+%Type = Article
+\bibitem[{Christiano et~al.(2003)Christiano, Motto and
+  Rostagno}]{ChristianoMottoRostagno2003}
+\bibinfo{author}{Christiano, L.J.}, \bibinfo{author}{Motto, R.},
+  \bibinfo{author}{Rostagno, M.}, \bibinfo{year}{2003}.
+\newblock \bibinfo{title}{The great depression and the {Friedman-Schwartz}
+  hypothesis}.
+\newblock \bibinfo{journal}{Journal of Money, Credit and Banking}
+  \bibinfo{volume}{35}, \bibinfo{pages}{1119--1197}.
+%Type = Techreport
+\bibitem[{Christiano et~al.(2010b)Christiano, Motto and
+  Rostagno}]{christiano2010financial}
+\bibinfo{author}{Christiano, L.J.}, \bibinfo{author}{Motto, R.},
+  \bibinfo{author}{Rostagno, M.}, \bibinfo{year}{2010}b.
+\newblock \bibinfo{title}{Financial factors in economic fluctuations}.
+\newblock \bibinfo{type}{Working Paper} \bibinfo{number}{1192}. ECB.
+%Type = Article
+\bibitem[{Christiano et~al.(2014)Christiano, Motto and Rostagno}]{CMR2014}
+\bibinfo{author}{Christiano, L.J.}, \bibinfo{author}{Motto, R.},
+  \bibinfo{author}{Rostagno, M.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Risk shocks}.
+\newblock \bibinfo{journal}{American Economic Review} \bibinfo{volume}{104},
+  \bibinfo{pages}{27--65}.
+%Type = Article
+\bibitem[{Christoffel and Kuester(2008)}]{ChristoffelKuester2008}
+\bibinfo{author}{Christoffel, K.}, \bibinfo{author}{Kuester, K.},
+  \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{Resuscitating the wage channel in models with
+  unemployment fluctuations}.
+\newblock \bibinfo{journal}{Journal of Monetary Economics}
+  \bibinfo{volume}{55}, \bibinfo{pages}{865--887}.
+%Type = Article
+\bibitem[{Christoffel et~al.(2009)Christoffel, Kuester and
+  Linzert}]{ChristoffelKuesterLinzert2009}
+\bibinfo{author}{Christoffel, K.}, \bibinfo{author}{Kuester, K.},
+  \bibinfo{author}{Linzert, T.}, \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{The role of labor markets for euro area monetary
+  policy}.
+\newblock \bibinfo{journal}{European Economic Review} \bibinfo{volume}{53},
+  \bibinfo{pages}{908--936}.
+%Type = Article
+\bibitem[{Clarida et~al.(1999)Clarida, Gal{\'\i} and
+  Gertler}]{ClaridaGaliGertler1999}
+\bibinfo{author}{Clarida, R.}, \bibinfo{author}{Gal{\'\i}, J.},
+  \bibinfo{author}{Gertler, M.}, \bibinfo{year}{1999}.
+\newblock \bibinfo{title}{The science of monetary policy: A {New Keynesian}
+  perspective}.
+\newblock \bibinfo{journal}{Journal of Economic Literature}
+  \bibinfo{volume}{37(4)}, \bibinfo{pages}{1661--1707}.
+%Type = Article
+\bibitem[{Clarida et~al.(2002)Clarida, Gal{\'\i} and
+  Gertler}]{ClaridaGaliGertler2002}
+\bibinfo{author}{Clarida, R.}, \bibinfo{author}{Gal{\'\i}, J.},
+  \bibinfo{author}{Gertler, M.}, \bibinfo{year}{2002}.
+\newblock \bibinfo{title}{A simple framework for international monetary policy
+  analysis}.
+\newblock \bibinfo{journal}{Journal of Monetary Economics}
+  \bibinfo{volume}{49}, \bibinfo{pages}{879--904}.
+%Type = Article
+\bibitem[{Coenen et~al.(2008)Coenen, McAdam and
+  Straub}]{CoenenMcAdamStraub2008}
+\bibinfo{author}{Coenen, G.}, \bibinfo{author}{McAdam, P.},
+  \bibinfo{author}{Straub, R.}, \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{Tax reform and labour-market performance in the euro
+  area: A simulation-based analysis using the {New Area-Wide Model}}.
+\newblock \bibinfo{journal}{Journal of Economic Dynamics \& Control}
+  \bibinfo{volume}{32(8)}, \bibinfo{pages}{2543--2583}.
+%Type = Unpublished
+\bibitem[{Coenen and Wieland(2002)}]{CoenenWieland2002}
+\bibinfo{author}{Coenen, G.}, \bibinfo{author}{Wieland, V.},
+  \bibinfo{year}{2002}.
+\newblock \bibinfo{title}{Inflation dynamics and international linkages: A
+  model of the {United States, the Euro Area and Japan}}.
+\newblock \bibinfo{note}{ECB Working Paper Series 181}.
+%Type = Article
+\bibitem[{Coenen and Wieland(2005)}]{CoenenWieland2005}
+\bibinfo{author}{Coenen, G.}, \bibinfo{author}{Wieland, V.},
+  \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{A small estimated euro area model with rational
+  expectations and nominal rigidities}.
+\newblock \bibinfo{journal}{European Economic Review} \bibinfo{volume}{49},
+  \bibinfo{pages}{1081--1104}.
+%Type = Article
+\bibitem[{Cogan et~al.(2010)Cogan, Cwik, Taylor and
+  Wieland}]{CoganCwikTaylorWieland2010}
+\bibinfo{author}{Cogan, J.}, \bibinfo{author}{Cwik, T.},
+  \bibinfo{author}{Taylor, J.}, \bibinfo{author}{Wieland, V.},
+  \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{New keynesian versus old keynesian government
+  spending multipliers}.
+\newblock \bibinfo{journal}{Journal of Economic Dynamics and Control}
+  \bibinfo{volume}{34}, \bibinfo{pages}{281--295}.
+%Type = Article
+\bibitem[{Cogan et~al.(2013)Cogan, Taylor, Wieland and
+  Wolters}]{CoganTaylorWielandWolters2013}
+\bibinfo{author}{Cogan, J.}, \bibinfo{author}{Taylor, J.},
+  \bibinfo{author}{Wieland, V.}, \bibinfo{author}{Wolters, M.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Fiscal consolidation strategy}.
+\newblock \bibinfo{journal}{Journal of Economic Dynamics and Control}
+  \bibinfo{volume}{37}, \bibinfo{pages}{404--421}.
+%Type = Article
+\bibitem[{Cogley et~al.(2010)Cogley, Primiceri and Sargent}]{Cogleyetal2010}
+\bibinfo{author}{Cogley, T.}, \bibinfo{author}{Primiceri, G.E.},
+  \bibinfo{author}{Sargent, T.J.}, \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{Inflation-gap persistence in the us}.
+\newblock \bibinfo{journal}{American Economic Journal: Macroeconomics}
+  \bibinfo{volume}{2}, \bibinfo{pages}{43--66}.
+%Type = Article
+\bibitem[{Cogley and Sbordone(2008)}]{cogley2008trend}
+\bibinfo{author}{Cogley, T.}, \bibinfo{author}{Sbordone, A.M.},
+  \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{Trend inflation, indexation, and inflation
+  persistence in the new keynesian phillips curve}.
+\newblock \bibinfo{journal}{American Economic Review} \bibinfo{volume}{98},
+  \bibinfo{pages}{2101--2126}.
+%Type = Article
+\bibitem[{Curdia and Woodford(2009)}]{CurdiaWoodford2009}
+\bibinfo{author}{Curdia, V.}, \bibinfo{author}{Woodford, M.},
+  \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{Credit frictions and optimal monetary policy}.
+\newblock \bibinfo{journal}{BIS Working Paper No 278} .
+%Type = Article
+\bibitem[{Darracq~Paries et~al.(2011)Darracq~Paries, Kokk~Sorensen and
+  Rodriguez-Palenzuela}]{DarracqPariesetal2011}
+\bibinfo{author}{Darracq~Paries, M.}, \bibinfo{author}{Kokk~Sorensen, C.},
+  \bibinfo{author}{Rodriguez-Palenzuela, D.}, \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Macroeconomic propagation under different regulatory
+  regimes: Evidence from an estimated dsge model for the euro area}.
+\newblock \bibinfo{journal}{International Journal of Central Banking}
+  \bibinfo{volume}{7}.
+%Type = Article
+\bibitem[{De~Fiore et~al.(2011)De~Fiore, Teles and Tristani}]{DeFioreetal2011}
+\bibinfo{author}{De~Fiore, F.}, \bibinfo{author}{Teles, P.},
+  \bibinfo{author}{Tristani, O.}, \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Monetary policy and the financing of firms}.
+\newblock \bibinfo{journal}{American Economic Journal: Macroeconomics}
+  \bibinfo{volume}{3}, \bibinfo{pages}{112--142}.
+%Type = Article
+\bibitem[{De~Fiore and Tristani(2013)}]{defiore2012tristani}
+\bibinfo{author}{De~Fiore, F.}, \bibinfo{author}{Tristani, O.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Optimal monetary policy in a model of the credit
+  channel}.
+\newblock \bibinfo{journal}{The Economic Journal} \bibinfo{volume}{123},
+  \bibinfo{pages}{906--931}.
+%Type = Article
+\bibitem[{{De Graeve}(2008)}]{DeGraeve2008}
+\bibinfo{author}{{De Graeve}, F.}, \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{The external finance premium and the macroeconomy:
+  {US} post-{WWII} evidence}.
+\newblock \bibinfo{journal}{Journal of Economic Dynamics and Control}
+  \bibinfo{volume}{32}, \bibinfo{pages}{3415--3440}.
+%Type = Article
+\bibitem[{De~Grauwe(2010)}]{de2010scientific}
+\bibinfo{author}{De~Grauwe, P.}, \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{The scientific foundation of dynamic stochastic
+  general equilibrium (dsge) models}.
+\newblock \bibinfo{journal}{Public choice} \bibinfo{volume}{144},
+  \bibinfo{pages}{413--443}.
+%Type = Article
+\bibitem[{Del~Negro et~al.(2017)Del~Negro, Eggertsson, Ferrero and
+  Kiyotaki}]{delnegro2017eggertson}
+\bibinfo{author}{Del~Negro, M.}, \bibinfo{author}{Eggertsson, G.},
+  \bibinfo{author}{Ferrero, A.}, \bibinfo{author}{Kiyotaki, N.},
+  \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{The great escape? a quantitative evaluation of the
+  fed's liquidity facilities}.
+\newblock \bibinfo{journal}{American Economic Review} \bibinfo{volume}{107},
+  \bibinfo{pages}{824--57}.
+%Type = Article
+\bibitem[{Del~Negro et~al.(2015)Del~Negro, Giannoni and
+  Schorfheide}]{del2015inflation}
+\bibinfo{author}{Del~Negro, M.}, \bibinfo{author}{Giannoni, M.P.},
+  \bibinfo{author}{Schorfheide, F.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Inflation in the great recession and new keynesian
+  models}.
+\newblock \bibinfo{journal}{American Economic Journal: Macroeconomics}
+  \bibinfo{volume}{7}, \bibinfo{pages}{168--96}.
+%Type = Article
+\bibitem[{Diamond and Rajan(2000)}]{diamond2000theory}
+\bibinfo{author}{Diamond, D.W.}, \bibinfo{author}{Rajan, R.G.},
+  \bibinfo{year}{2000}.
+\newblock \bibinfo{title}{A theory of bank capital}.
+\newblock \bibinfo{journal}{The Journal of Finance} \bibinfo{volume}{55},
+  \bibinfo{pages}{2431--2465}.
+%Type = Article
+\bibitem[{Diamond and Rajan(2001)}]{diamond2001liquidity}
+\bibinfo{author}{Diamond, D.W.}, \bibinfo{author}{Rajan, R.G.},
+  \bibinfo{year}{2001}.
+\newblock \bibinfo{title}{Liquidity risk, liquidity creation, and financial
+  fragility: A theory of banking}.
+\newblock \bibinfo{journal}{Journal of political Economy}
+  \bibinfo{volume}{109}, \bibinfo{pages}{287--327}.
+%Type = Article
+\bibitem[{Dieppe et~al.(2005)Dieppe, Kuester and
+  McAdam}]{DieppeKuesterMcAdam2005}
+\bibinfo{author}{Dieppe, A.}, \bibinfo{author}{Kuester, K.},
+  \bibinfo{author}{McAdam, P.}, \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{Optimal monetary policy rules for the euro area: An
+  analysis using the area wide model}.
+\newblock \bibinfo{journal}{Journal of Common Market Studies}
+  \bibinfo{volume}{43}, \bibinfo{pages}{507--5372}.
+%Type = Article
+\bibitem[{Ellison and Tischbirek(2014)}]{EllisonTischbirek2014}
+\bibinfo{author}{Ellison, M.}, \bibinfo{author}{Tischbirek, A.},
+  \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Unconventional government debt purchases as a
+  supplement to conventional monetary policy}.
+\newblock \bibinfo{journal}{Journal of Economic Dynamics and Control}
+  \bibinfo{volume}{43}, \bibinfo{pages}{199 -- 217}.
+%Type = Article
+\bibitem[{Erceg et~al.(2008)Erceg, Guerrieri and Gust}]{ErcegGuerrieriGust2008}
+\bibinfo{author}{Erceg, C.J.}, \bibinfo{author}{Guerrieri, L.},
+  \bibinfo{author}{Gust, C.}, \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{Trade adjustment and the composition of trade}.
+\newblock \bibinfo{journal}{Journal of Economic Dynamics \& Control}
+  \bibinfo{volume}{32}, \bibinfo{pages}{2622--2650}.
+%Type = Article
+\bibitem[{Erceg et~al.(2000)Erceg, Henderson and
+  Levin}]{ErcegHendersonLevin2000}
+\bibinfo{author}{Erceg, C.J.}, \bibinfo{author}{Henderson, D.},
+  \bibinfo{author}{Levin, A.}, \bibinfo{year}{2000}.
+\newblock \bibinfo{title}{Optimal monetary policy with staggered wage and price
+  contracts}.
+\newblock \bibinfo{journal}{Journal of Monetary Economics}
+  \bibinfo{volume}{46}, \bibinfo{pages}{281--313}.
+%Type = Article
+\bibitem[{Fagan et~al.(2005)Fagan, Henry and Mestre}]{FaganHenryMestre2005}
+\bibinfo{author}{Fagan, G.}, \bibinfo{author}{Henry, J.},
+  \bibinfo{author}{Mestre, R.}, \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{An area-wide model for the euro area}.
+\newblock \bibinfo{journal}{Economic Modelling} \bibinfo{volume}{22},
+  \bibinfo{pages}{39--59}.
+%Type = Article
+\bibitem[{Faia and Monacelli(2008)}]{faia2008optimal}
+\bibinfo{author}{Faia, E.}, \bibinfo{author}{Monacelli, T.},
+  \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{Optimal monetary policy in a small open economy with
+  home bias}.
+\newblock \bibinfo{journal}{Journal of Money, credit and Banking}
+  \bibinfo{volume}{40}, \bibinfo{pages}{721--750}.
+%Type = Article
+\bibitem[{Fern{\'a}ndez-Villaverde(2010)}]{fernandez2010econometrics}
+\bibinfo{author}{Fern{\'a}ndez-Villaverde, J.}, \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{The econometrics of dsge models}.
+\newblock \bibinfo{journal}{SERIEs} \bibinfo{volume}{1},
+  \bibinfo{pages}{3--49}.
+%Type = Article
+\bibitem[{Fern\'andez-Villaverde et~al.(2015)Fern\'andez-Villaverde,
+  Guerr\'on-Quintana, Kuester and
+  Rubio-Ram\'irez}]{FernandezVillaverdeetal2015}
+\bibinfo{author}{Fern\'andez-Villaverde, J.},
+  \bibinfo{author}{Guerr\'on-Quintana, P.}, \bibinfo{author}{Kuester, K.},
+  \bibinfo{author}{Rubio-Ram\'irez, J.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Fiscal volatility shocks and economic activity}.
+\newblock \bibinfo{journal}{American Economic Review}
+  \bibinfo{volume}{105(11)}, \bibinfo{pages}{3352--3384}.
+%Type = Article
+\bibitem[{Fern{\'a}ndez-Villaverde et~al.(2015)Fern{\'a}ndez-Villaverde,
+  Guerr{\'o}n-Quintana and Rubio-Ram{\'\i}rez}]{fernandez2015estimating}
+\bibinfo{author}{Fern{\'a}ndez-Villaverde, J.},
+  \bibinfo{author}{Guerr{\'o}n-Quintana, P.},
+  \bibinfo{author}{Rubio-Ram{\'\i}rez, J.F.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Estimating dynamic equilibrium models with stochastic
+  volatility}.
+\newblock \bibinfo{journal}{Journal of Econometrics} \bibinfo{volume}{185},
+  \bibinfo{pages}{216--229}.
+%Type = Article
+\bibitem[{Ferrari and Nispi~Landi(2023)}]{ferraria2023toward}
+\bibinfo{author}{Ferrari, A.}, \bibinfo{author}{Nispi~Landi, V.},
+  \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Toward a green economy: The role of the central
+  bank’s asset purchases}.
+\newblock \bibinfo{journal}{International Journal of Central Banking} .
+%Type = Article
+\bibitem[{F\`eve et~al.(2013)F\`eve, Matheron and Sahuc}]{Feveetal2013}
+\bibinfo{author}{F\`eve, P.}, \bibinfo{author}{Matheron, J.},
+  \bibinfo{author}{Sahuc, J.G.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{A pitfall with estimated dsge-based government
+  spending multipliers}.
+\newblock \bibinfo{journal}{American Economic Journal: Macroeconomics}
+  \bibinfo{volume}{4}, \bibinfo{pages}{141--178}.
+%Type = Article
+\bibitem[{Filardo et~al.(2018)Filardo, Lombardi, Montoro and
+  Ferrari}]{filardo2018monetary}
+\bibinfo{author}{Filardo, A.}, \bibinfo{author}{Lombardi, M.},
+  \bibinfo{author}{Montoro, C.}, \bibinfo{author}{Ferrari, M.},
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Monetary policy spillovers, global commoditiy prices
+  and cooperation}.
+\newblock \bibinfo{journal}{BIS Working Paper No 696} .
+%Type = Article
+\bibitem[{Fratto and Uhlig()}]{fratto2019uhlig}
+\bibinfo{author}{Fratto, C.}, \bibinfo{author}{Uhlig, H.}, .
+\newblock \bibinfo{title}{The great escape? a quantitative evaluation of the
+  fed's liquidity facilities}.
+\newblock \bibinfo{journal}{Review of Economic Dynamics, forthcoming} .
+%Type = Article
+\bibitem[{Fuhrer and Moore(1995a)}]{FuhrerMoore1995}
+\bibinfo{author}{Fuhrer, J.C.}, \bibinfo{author}{Moore, G.},
+  \bibinfo{year}{1995}a.
+\newblock \bibinfo{title}{Inflation persistence}.
+\newblock \bibinfo{journal}{The Quarterly Journal of Economics}
+  \bibinfo{volume}{110(1)}, \bibinfo{pages}{127--159}.
+%Type = Article
+\bibitem[{Fuhrer and Moore(1995b)}]{FuhrerMoore1995a}
+\bibinfo{author}{Fuhrer, J.C.}, \bibinfo{author}{Moore, G.},
+  \bibinfo{year}{1995}b.
+\newblock \bibinfo{title}{Monetary policy trade-offs and the correlation
+  between nominal interest rates and real output}.
+\newblock \bibinfo{journal}{The American Economic Review}
+  \bibinfo{volume}{85(1)}, \bibinfo{pages}{219--239}.
+%Type = Article
+\bibitem[{Funke and Paetz(2013)}]{FunkePaetz2013}
+\bibinfo{author}{Funke, M.}, \bibinfo{author}{Paetz, M.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Housing prices and the business cycle: An empirical
+  application to hong kong}.
+\newblock \bibinfo{journal}{Journal of Housing Economics} \bibinfo{volume}{22},
+  \bibinfo{pages}{62--76}.
+%Type = Article
+\bibitem[{Funke et~al.(2011)Funke, Paetz and
+  Pytlarczyk}]{FunkePaetzPytlarczyk2011}
+\bibinfo{author}{Funke, M.}, \bibinfo{author}{Paetz, M.},
+  \bibinfo{author}{Pytlarczyk, E.}, \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Stock market wealth effects in an estimated {DSGE}
+  model for {Hong Kong}}.
+\newblock \bibinfo{journal}{Economic Modelling} \bibinfo{volume}{28},
+  \bibinfo{pages}{316--334}.
+%Type = Article
+\bibitem[{Gadatsch et~al.(2016)Gadatsch, Hauzenberger and
+  St{\"a}hler}]{gadatsch2016fiscal}
+\bibinfo{author}{Gadatsch, N.}, \bibinfo{author}{Hauzenberger, K.},
+  \bibinfo{author}{St{\"a}hler, N.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Fiscal policy during the crisis: A look on germany
+  and the euro area with gear}.
+\newblock \bibinfo{journal}{Economic Modelling} \bibinfo{volume}{52},
+  \bibinfo{pages}{997--1016}.
+%Type = Misc
+\bibitem[{Gal{\'\i}(2008)}]{gali2008monetary}
+\bibinfo{author}{Gal{\'\i}, J.}, \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{Monetary policy, inflation, and the business cycle:
+  an introduction to the new keynesian framework}.
+%Type = Article
+\bibitem[{Gal{\'\i} and Gertler(1999)}]{GaliGertler1999}
+\bibinfo{author}{Gal{\'\i}, J.}, \bibinfo{author}{Gertler, M.},
+  \bibinfo{year}{1999}.
+\newblock \bibinfo{title}{Inflation dynamics: A structural econometric
+  analysis}.
+\newblock \bibinfo{journal}{Journal of Monetary Economics}
+  \bibinfo{volume}{113(1)}, \bibinfo{pages}{1--45}.
+%Type = Article
+\bibitem[{Gal{\'\i} et~al.(2007)Gal{\'\i}, L{\'o}pez-Salido and
+  Vall{\'e}s}]{gali2007understanding}
+\bibinfo{author}{Gal{\'\i}, J.}, \bibinfo{author}{L{\'o}pez-Salido, J.D.},
+  \bibinfo{author}{Vall{\'e}s, J.}, \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{Understanding the effects of government spending on
+  consumption}.
+\newblock \bibinfo{journal}{Journal of the European Economic Association}
+  \bibinfo{volume}{5}, \bibinfo{pages}{227--270}.
+%Type = Article
+\bibitem[{Gal{\'\i} and Monacelli(2005)}]{GaliMonacelli2005}
+\bibinfo{author}{Gal{\'\i}, J.}, \bibinfo{author}{Monacelli, T.},
+  \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{Monetary policy and exchange rate volatility in a
+  small open economy}.
+\newblock \bibinfo{journal}{Review of Economic Studies} \bibinfo{volume}{72},
+  \bibinfo{pages}{707--734}.
+%Type = Article
+\bibitem[{Gal{\'\i} and Monacelli(2016)}]{gali2016understanding}
+\bibinfo{author}{Gal{\'\i}, J.}, \bibinfo{author}{Monacelli, T.},
+  \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Understanding the gains from wage flexibility: The
+  exchange rate connection}.
+\newblock \bibinfo{journal}{American Economic Review} \bibinfo{volume}{106},
+  \bibinfo{pages}{3829--68}.
+%Type = Article
+\bibitem[{Gal{\'\i} et~al.(2012)Gal{\'\i}, Smets and
+  Wouters}]{gali2012unemployment}
+\bibinfo{author}{Gal{\'\i}, J.}, \bibinfo{author}{Smets, F.},
+  \bibinfo{author}{Wouters, R.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Unemployment in an estimated new keynesian model}.
+\newblock \bibinfo{journal}{NBER macroeconomics annual} \bibinfo{volume}{26},
+  \bibinfo{pages}{329--360}.
+%Type = Article
+\bibitem[{Gambacorta and Signoretti(2014)}]{gambacorta2014should}
+\bibinfo{author}{Gambacorta, L.}, \bibinfo{author}{Signoretti, F.},
+  \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Should monetary policy lean against the wind?}
+\newblock \bibinfo{journal}{Journal of Eonomic Dynamcis and Control} .
+%Type = Article
+\bibitem[{Gelain(2010)}]{Gelain2010}
+\bibinfo{author}{Gelain, P.}, \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{The external finance premium in the euro area: A
+  dynamic stochastic general equilibrium analysis}.
+\newblock \bibinfo{journal}{North American Journal of Economics and Finance}
+  \bibinfo{volume}{21}, \bibinfo{pages}{49--71}.
+%Type = Article
+\bibitem[{Gerali et~al.(2010)Gerali, Neri, Sessa and
+  Signoretti}]{Geralietal2010}
+\bibinfo{author}{Gerali, A.}, \bibinfo{author}{Neri, S.},
+  \bibinfo{author}{Sessa, L.}, \bibinfo{author}{Signoretti, F.M.},
+  \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{Credit and banking in a dsge model of the euro area}.
+\newblock \bibinfo{journal}{Journal of Money, Credit and Banking}
+  \bibinfo{volume}{42}, \bibinfo{pages}{107--141}.
+\newblock \URLprefix
+  \url{http://ideas.repec.org/a/mcb/jmoncb/v42y2010is1p107-141.html}.
+%Type = Article
+\bibitem[{Gertler and Karadi(2011)}]{GertlerKaradi2011}
+\bibinfo{author}{Gertler, M.}, \bibinfo{author}{Karadi, P.},
+  \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{A model of unconventional monetary policy}.
+\newblock \bibinfo{journal}{Journal of Monetary Economics}
+  \bibinfo{volume}{58}, \bibinfo{pages}{17--34}.
+%Type = Article
+\bibitem[{Gertler and Karadi(2013)}]{GertlerKaradi2013}
+\bibinfo{author}{Gertler, M.}, \bibinfo{author}{Karadi, P.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Qe 1 vs. 2 vs. 3. . . : A framework for analyzing
+  large-scale asset purchases as a monetary policy tool}.
+\newblock \bibinfo{journal}{International Journal of Central Banking}
+  \bibinfo{volume}{9}.
+%Type = Inbook
+\bibitem[{Giannoni and Woodford(2003)}]{giannoni2003optimal}
+\bibinfo{author}{Giannoni, M.P.}, \bibinfo{author}{Woodford, M.},
+  \bibinfo{year}{2003}.
+\newblock \bibinfo{title}{Optimal Inflation Targeting Rules}.
+  \bibinfo{publisher}{University of Chicago Press}, \bibinfo{address}{Chicago}.
+%Type = Article
+\bibitem[{Gilchrist et~al.(2017)Gilchrist, Schoenle, Sim and
+  Zakraj\v{s}ek}]{gilchrist2017inflation}
+\bibinfo{author}{Gilchrist, S.}, \bibinfo{author}{Schoenle, R.},
+  \bibinfo{author}{Sim, J.}, \bibinfo{author}{Zakraj\v{s}ek, E.},
+  \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Inflation dynamics during the financial crisis}.
+\newblock \bibinfo{journal}{American Economic Review} \bibinfo{volume}{107},
+  \bibinfo{pages}{785--823}.
+%Type = Article
+\bibitem[{Gnocci et~al.(2016)Gnocci, Hauser and Pappa}]{gnocci2016housework}
+\bibinfo{author}{Gnocci, S.}, \bibinfo{author}{Hauser, D.},
+  \bibinfo{author}{Pappa, E.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Housework and fiscal expansions}.
+\newblock \bibinfo{journal}{Journal of Monetary Economics}
+  \bibinfo{volume}{79}, \bibinfo{pages}{94--108}.
+%Type = Article
+\bibitem[{Goodfriend and McCallum(2007)}]{goodfriend2007banking}
+\bibinfo{author}{Goodfriend, M.}, \bibinfo{author}{McCallum, B.T.},
+  \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{Banking and interest rates in monetary policy
+  analysis: A quantitative exploration}.
+\newblock \bibinfo{journal}{Journal of Monetary Economics}
+  \bibinfo{volume}{54}, \bibinfo{pages}{1480--1507}.
+%Type = Unpublished
+\bibitem[{Gouvea et~al.(2008)Gouvea, Minella, Santos and
+  Souza-Sobrinho}]{Gouveaetal2008}
+\bibinfo{author}{Gouvea, S.}, \bibinfo{author}{Minella, A.},
+  \bibinfo{author}{Santos, R.}, \bibinfo{author}{Souza-Sobrinho, N.},
+  \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{Samba: Stochastic analytical model with a bayesian
+  approach}.
+\newblock \bibinfo{note}{Manuscript}.
+%Type = Article
+\bibitem[{Greenwood et~al.(1988)Greenwood, Hercowitz and
+  Huffman}]{greenwood1988investment}
+\bibinfo{author}{Greenwood, J.}, \bibinfo{author}{Hercowitz, Z.},
+  \bibinfo{author}{Huffman, G.W.}, \bibinfo{year}{1988}.
+\newblock \bibinfo{title}{Investment, capacity utilization, and the real
+  business cycle}.
+\newblock \bibinfo{journal}{The American Economic Review} ,
+  \bibinfo{pages}{402--417}.
+%Type = Article
+\bibitem[{Hollander and Liu(2016)}]{hollander2016liu}
+\bibinfo{author}{Hollander, H.}, \bibinfo{author}{Liu, G.},
+  \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{The equity price channel in a new-keynesian dsge
+  model with financial frictions and banking}.
+\newblock \bibinfo{journal}{Economic Modelling} \bibinfo{volume}{52},
+  \bibinfo{pages}{375--389}.
+%Type = Article
+\bibitem[{Holmstrom and Tirole(1997)}]{holmstromTirole1997}
+\bibinfo{author}{Holmstrom, B.}, \bibinfo{author}{Tirole, J.},
+  \bibinfo{year}{1997}.
+\newblock \bibinfo{title}{Financial intermediation, loanable funds, and the
+  real sector}.
+\newblock \bibinfo{journal}{The Quarterly Journal of Economics}
+  \bibinfo{volume}{112}, \bibinfo{pages}{663--91}.
+%Type = Article
+\bibitem[{Iacoviello(2005)}]{Iacoviello2005}
+\bibinfo{author}{Iacoviello, M.}, \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{House prices, borrowing constraints, and monetary
+  policy in the business cycle}.
+\newblock \bibinfo{journal}{The American Economic Review}
+  \bibinfo{volume}{95(3)}, \bibinfo{pages}{739--764}.
+%Type = Article
+\bibitem[{Iacoviello and Neri(2010)}]{IacovielloNeri2010}
+\bibinfo{author}{Iacoviello, M.}, \bibinfo{author}{Neri, S.},
+  \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{Housing market spillovers: Evidence from an estimated
+  dsge model}.
+\newblock \bibinfo{journal}{American Economic Journal: Macroeconomics}
+  \bibinfo{volume}{2}, \bibinfo{pages}{125--64}.
+%Type = Article
+\bibitem[{Ireland(2003)}]{Ireland2003}
+\bibinfo{author}{Ireland, P.}, \bibinfo{year}{2003}.
+\newblock \bibinfo{title}{Endogenous money or sticky prices?}
+\newblock \bibinfo{journal}{Journal of Monetary Economics}
+  \bibinfo{volume}{50}, \bibinfo{pages}{1623--1648}.
+%Type = Article
+\bibitem[{Ireland(2004)}]{Ireland2004}
+\bibinfo{author}{Ireland, P.}, \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{Money's role in the monetary business cycle}.
+\newblock \bibinfo{journal}{Journal of Money, Credit and Banking}
+  \bibinfo{volume}{36(6)}, \bibinfo{pages}{969--983}.
+%Type = Article
+\bibitem[{Ireland(2011)}]{Ireland2011}
+\bibinfo{author}{Ireland, P.}, \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{A {New Keynesian} perspective on the {Great
+  Recession}}.
+\newblock \bibinfo{journal}{Journal of Money, Credit and Banking}
+  \bibinfo{volume}{43(1)}, \bibinfo{pages}{31--54}.
+%Type = Article
+\bibitem[{Ireland(2015)}]{ireland2015monetary}
+\bibinfo{author}{Ireland, P.N.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Monetary policy, bond risk premia, and the economy}.
+\newblock \bibinfo{journal}{Journal of Monetary Economics}
+  \bibinfo{volume}{76}, \bibinfo{pages}{124--140}.
+%Type = Article
+\bibitem[{Jang and Okano(2015)}]{jang2015okano}
+\bibinfo{author}{Jang, T.S.}, \bibinfo{author}{Okano, E.},
+  \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Productivity shocks and monetary policy in a
+  two-country model}.
+\newblock \bibinfo{journal}{Frontiers of Economics in China, Higher Education
+  Press} \bibinfo{volume}{10}, \bibinfo{pages}{7--37}.
+%Type = Article
+\bibitem[{Justiniano et~al.(2011)Justiniano, Primiceri and
+  Tambalotti}]{Justinianoetal2011}
+\bibinfo{author}{Justiniano, A.}, \bibinfo{author}{Primiceri, G.E.},
+  \bibinfo{author}{Tambalotti, A.}, \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Investment shocks and the relative price of
+  investment}.
+\newblock \bibinfo{journal}{Review of Economic Dynamics} \bibinfo{volume}{14},
+  \bibinfo{pages}{102--121}.
+%Type = Article
+\bibitem[{Kannan et~al.(2012)Kannan, Rabanal and
+  Scott}]{KannanRabanalScott2012}
+\bibinfo{author}{Kannan, P.}, \bibinfo{author}{Rabanal, P.},
+  \bibinfo{author}{Scott, A.M.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Monetary and macroprudential policy rules in a model
+  with house price booms}.
+\newblock \bibinfo{journal}{The B.E. Journal of Macroeconomics}
+  \bibinfo{volume}{12}, \bibinfo{pages}{16}.
+%Type = Article
+\bibitem[{Kilponen et~al.(2016)Kilponen, Orjasniemi, Ripatti and
+  Verona}]{kilponen2016aino}
+\bibinfo{author}{Kilponen, J.}, \bibinfo{author}{Orjasniemi, S.},
+  \bibinfo{author}{Ripatti, A.}, \bibinfo{author}{Verona, F.},
+  \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{The aino 2.0 model}.
+\newblock \bibinfo{journal}{Bank of Finland Research Discussion Paper 16} .
+%Type = Article
+\bibitem[{Kimball(1995)}]{Kimball1995}
+\bibinfo{author}{Kimball, M.}, \bibinfo{year}{1995}.
+\newblock \bibinfo{title}{The quantitative analytics of the basic
+  {Neomonetarist} model}.
+\newblock \bibinfo{journal}{Journal of Money, Credit and Banking}
+  \bibinfo{volume}{27(4)}, \bibinfo{pages}{1241--1277}.
+%Type = Article
+\bibitem[{Kirchner and van Wijnbergen(2016)}]{kirchner2016fiscal}
+\bibinfo{author}{Kirchner, M.}, \bibinfo{author}{van Wijnbergen, S.},
+  \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Fiscal deficits, financial fragility, and the
+  effectiveness of government policies}.
+\newblock \bibinfo{journal}{Journal of Monetary Economics}
+  \bibinfo{volume}{80}, \bibinfo{pages}{51--68}.
+%Type = Article
+\bibitem[{Kiyotaki and Moore(1997)}]{KiyotakiMoore1999}
+\bibinfo{author}{Kiyotaki, N.}, \bibinfo{author}{Moore, J.},
+  \bibinfo{year}{1997}.
+\newblock \bibinfo{title}{Credit cycles}.
+\newblock \bibinfo{journal}{Journal of Political Economy}
+  \bibinfo{volume}{105(2)}, \bibinfo{pages}{211--48}.
+%Type = Article
+\bibitem[{Kliem and Kriwoluzky(2014)}]{kliem2014kriwoluzky}
+\bibinfo{author}{Kliem, M.}, \bibinfo{author}{Kriwoluzky, A.},
+  \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Toward a taylor rule of fiscal policy}.
+\newblock \bibinfo{journal}{Review of Economic Dynamics} \bibinfo{volume}{17},
+  \bibinfo{pages}{294--302}.
+%Type = Article
+\bibitem[{Krause and Moyen(2016)}]{krause2016public}
+\bibinfo{author}{Krause, M.U.}, \bibinfo{author}{Moyen, S.},
+  \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Public debt and changing inflation targets}.
+\newblock \bibinfo{journal}{American Economic Journal: Macroeconomics}
+  \bibinfo{volume}{8}, \bibinfo{pages}{142--76}.
+%Type = Article
+\bibitem[{Kriwoluzky and Stoltenberg(2014)}]{kriwoluzky2015stoltenberg}
+\bibinfo{author}{Kriwoluzky, A.}, \bibinfo{author}{Stoltenberg, C.A.},
+  \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Monetary policy and the transaction role of money in
+  the us. economic journal}.
+\newblock \bibinfo{journal}{Economic Journal} \bibinfo{volume}{125},
+  \bibinfo{pages}{1452--1473}.
+%Type = Unpublished
+\bibitem[{Kuester and Wieland(2005)}]{KuesterWieland2005}
+\bibinfo{author}{Kuester, K.}, \bibinfo{author}{Wieland, V.},
+  \bibinfo{year}{2005}.
+\newblock \bibinfo{title}{Insurance policies for monetary policy in the euro
+  area}.
+\newblock \bibinfo{note}{ECB Working Paper Series 480}.
+%Type = Article
+\bibitem[{Laxton and Pesenti(2003)}]{LaxtonPesenti2003}
+\bibinfo{author}{Laxton, D.}, \bibinfo{author}{Pesenti, P.},
+  \bibinfo{year}{2003}.
+\newblock \bibinfo{title}{Monetary rule for small, open, emerging economies}.
+\newblock \bibinfo{journal}{Journal of Monetary Economics}
+  \bibinfo{volume}{50}, \bibinfo{pages}{1109--1146}.
+%Type = Article
+\bibitem[{Leeper et~al.(2017)Leeper, Traum and Walker}]{leeper2017traum}
+\bibinfo{author}{Leeper, E.M.}, \bibinfo{author}{Traum, N.},
+  \bibinfo{author}{Walker, T.B.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Clearing up the fiscal multiplier morass}.
+\newblock \bibinfo{journal}{American Economic Review} \bibinfo{volume}{107},
+  \bibinfo{pages}{2409--2454}.
+%Type = Article
+\bibitem[{Leeper et~al.(2013)Leeper, Walker and Yang}]{leeper2013fiscal}
+\bibinfo{author}{Leeper, E.M.}, \bibinfo{author}{Walker, T.B.},
+  \bibinfo{author}{Yang, S.C.S.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Fiscal foresight and information flows}.
+\newblock \bibinfo{journal}{Econometrica} \bibinfo{volume}{81},
+  \bibinfo{pages}{1115--1145}.
+%Type = Article
+\bibitem[{Levin et~al.(2003)Levin, Wieland and
+  Williams}]{LevinWielandWilliams2003}
+\bibinfo{author}{Levin, A.}, \bibinfo{author}{Wieland, V.},
+  \bibinfo{author}{Williams, J.C.}, \bibinfo{year}{2003}.
+\newblock \bibinfo{title}{The performance of forecast-based monetary policy
+  rules under model uncertainty}.
+\newblock \bibinfo{journal}{The American Economic Review}
+  \bibinfo{volume}{93(3)}, \bibinfo{pages}{622--645}.
+%Type = Unpublished
+\bibitem[{Levin et~al.(2004)Levin, Natalucci and Zakrajsek}]{Levinetal2004}
+\bibinfo{author}{Levin, A.T.}, \bibinfo{author}{Natalucci, F.M.},
+  \bibinfo{author}{Zakrajsek, E.}, \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{The magnitude and cyclical behavior of financial
+  market frictions}.
+\newblock \bibinfo{note}{Series Staff Working Paper 2004--70}.
+%Type = Article
+\bibitem[{Lubik and Schorfheide(2007)}]{LubikSchorfheide2007}
+\bibinfo{author}{Lubik, T.A.}, \bibinfo{author}{Schorfheide, F.},
+  \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{Do central banks respond to exchange rate movements?
+  a structural investigation}.
+\newblock \bibinfo{journal}{Journal of Monetary Economics}
+  \bibinfo{volume}{54}, \bibinfo{pages}{1069--1087}.
+%Type = Article
+\bibitem[{Mankiw and Reis(2007)}]{MankiwReis2007}
+\bibinfo{author}{Mankiw, N.G.}, \bibinfo{author}{Reis, R.},
+  \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{Sticky information in general equilibrium}.
+\newblock \bibinfo{journal}{Journal of the European Economic Association}
+  \bibinfo{volume}{5(2-3)}, \bibinfo{pages}{603--613}.
+%Type = Incollection
+\bibitem[{McCallum and Nelson(1999)}]{McCallumNelson1999}
+\bibinfo{author}{McCallum, B.}, \bibinfo{author}{Nelson, E.},
+  \bibinfo{year}{1999}.
+\newblock \bibinfo{title}{Performance of operational policy rules in an
+  estimated semi-classical structural model}, in: \bibinfo{editor}{Taylor,
+  J.B.} (Ed.), \bibinfo{booktitle}{Monetary Policy Rules}.
+  \bibinfo{publisher}{Chicago: University of Chicago Press}, pp.
+  \bibinfo{pages}{15--56}.
+%Type = Unpublished
+\bibitem[{Medina and Soto(2007)}]{MedinaSoto2007}
+\bibinfo{author}{Medina, J.P.}, \bibinfo{author}{Soto, C.},
+  \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{The {C}hilean business cycles through the lens of a
+  stochastic general equilibrium model}.
+\newblock \bibinfo{note}{Central Bank of Chile Working Papers 457}.
+%Type = Article
+\bibitem[{Meh and Moran(2010)}]{MehMoran2010}
+\bibinfo{author}{Meh, C.A.}, \bibinfo{author}{Moran, K.}, \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{The role of bank capital in the propagation of
+  shocks}.
+\newblock \bibinfo{journal}{Journal of Economic Dynamics and Control}
+  \bibinfo{volume}{34}, \bibinfo{pages}{555--576}.
+%Type = Article
+\bibitem[{Michaillat(2014)}]{michaillat2014atheory}
+\bibinfo{author}{Michaillat, P.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{A theory of countercyclical government multiplier}.
+\newblock \bibinfo{journal}{American Economic Journal: Macroeconomics}
+  \bibinfo{volume}{6}, \bibinfo{pages}{190--217}.
+%Type = Article
+\bibitem[{Milani(2007)}]{Milani2007}
+\bibinfo{author}{Milani, F.}, \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{Expectations, learning and macroeconomic
+  persistence}.
+\newblock \bibinfo{journal}{Journal of Monetary Economics}
+  \bibinfo{volume}{54}, \bibinfo{pages}{2065 -- 2082}.
+%Type = Article
+\bibitem[{Millard(2011)}]{millard2011estimated}
+\bibinfo{author}{Millard, S.}, \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{An estimated dsge model of energy, costs and
+  inflation in the united kingdom} .
+%Type = Article
+\bibitem[{Monacelli et~al.(2010)Monacelli, Perotti and
+  Trigari}]{monacelli2010unemployment}
+\bibinfo{author}{Monacelli, T.}, \bibinfo{author}{Perotti, R.},
+  \bibinfo{author}{Trigari, A.}, \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{Unemployment fiscal multipliers}.
+\newblock \bibinfo{journal}{Journal of Monetary Economics}
+  \bibinfo{volume}{57}, \bibinfo{pages}{531--553}.
+%Type = Article
+\bibitem[{Mortensen and Pissarides(1994)}]{MortensenPissarides1994}
+\bibinfo{author}{Mortensen, D.}, \bibinfo{author}{Pissarides, C.},
+  \bibinfo{year}{1994}.
+\newblock \bibinfo{title}{Job creation and job desctruction in the theory of
+  unemployment}.
+\newblock \bibinfo{journal}{Review of Economic Studies}
+  \bibinfo{volume}{61(3)}, \bibinfo{pages}{397--415}.
+%Type = Article
+\bibitem[{Murchison and Rennison(2006)}]{murchison2006rennison}
+\bibinfo{author}{Murchison, S.}, \bibinfo{author}{Rennison, A.},
+  \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{Totem: The bank of canada's new quarterly projection
+  model}.
+\newblock \bibinfo{journal}{Bank of Canada Technical Report No. 97} .
+%Type = Article
+\bibitem[{Nakamura and Steinsson(2014)}]{NakamuraSteinsson2014}
+\bibinfo{author}{Nakamura, E.}, \bibinfo{author}{Steinsson, J.},
+  \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Fiscal stimulus in a monetary union: Evidence from us
+  regions}.
+\newblock \bibinfo{journal}{American Economic Review} \bibinfo{volume}{4},
+  \bibinfo{pages}{753--792}.
+%Type = Article
+\bibitem[{Nakov and Pescatori(2010)}]{nakov2010monetary}
+\bibinfo{author}{Nakov, A.}, \bibinfo{author}{Pescatori, A.},
+  \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{Monetary policy trade-offs with a dominant oil
+  producer}.
+\newblock \bibinfo{journal}{Journal of Money, Credit and Banking}
+  \bibinfo{volume}{42}, \bibinfo{pages}{1--32}.
+%Type = Article
+\bibitem[{Orphanides(2003a)}]{Orphanides20032}
+\bibinfo{author}{Orphanides, A.}, \bibinfo{year}{2003}a.
+\newblock \bibinfo{title}{Historical monetary policy analysis and the taylor
+  rule}.
+\newblock \bibinfo{journal}{Journal of Monetary Economics}
+  \bibinfo{volume}{50}, \bibinfo{pages}{983--1022}.
+%Type = Article
+\bibitem[{Orphanides(2003b)}]{Orphanides2003}
+\bibinfo{author}{Orphanides, A.}, \bibinfo{year}{2003}b.
+\newblock \bibinfo{title}{The quest for prosperity without inflation}.
+\newblock \bibinfo{journal}{Journal of Monetary Economics}
+  \bibinfo{volume}{50}, \bibinfo{pages}{633--663}.
+%Type = Unpublished
+\bibitem[{Orphanides and Wieland(1998)}]{OrphanidesWieland1998}
+\bibinfo{author}{Orphanides, A.}, \bibinfo{author}{Wieland, V.},
+  \bibinfo{year}{1998}.
+\newblock \bibinfo{title}{Price stability and monetary policy effectiveness
+  when nominal interest rates are bounded at zero}.
+\newblock \bibinfo{note}{Finance and Economics Discussion Series 98-35, Board
+  of Governors of the Federal Reserve System}.
+%Type = Article
+\bibitem[{Pancrazi et~al.(2016)Pancrazi, Seoane and
+  Vukotic}]{pancrazi2016price}
+\bibinfo{author}{Pancrazi, R.}, \bibinfo{author}{Seoane, H.D.},
+  \bibinfo{author}{Vukotic, M.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{The price of capital and the financial accelerator}.
+\newblock \bibinfo{journal}{Economics Letters} \bibinfo{volume}{149},
+  \bibinfo{pages}{86--89}.
+%Type = Article
+\bibitem[{Paoli and Paustian(2017)}]{paoli2017coordinating}
+\bibinfo{author}{Paoli, B.d.}, \bibinfo{author}{Paustian, M.},
+  \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Coordinating monetary and macroprudential policies}.
+\newblock \bibinfo{journal}{Journal of Money, Credit and Banking}
+  \bibinfo{volume}{49}, \bibinfo{pages}{319--349}.
+%Type = Article
+\bibitem[{Poutineau and Vermandel(2015a)}]{poutineau2015cross}
+\bibinfo{author}{Poutineau, J.C.}, \bibinfo{author}{Vermandel, G.},
+  \bibinfo{year}{2015}a.
+\newblock \bibinfo{title}{Cross-border banking flows spillovers in the
+  eurozone: Evidence from an estimated dsge model}.
+\newblock \bibinfo{journal}{Journal of Economic Dynamics and Control}
+  \bibinfo{volume}{51}, \bibinfo{pages}{378--403}.
+%Type = Article
+\bibitem[{Poutineau and Vermandel(2015b)}]{poutineau2015financial}
+\bibinfo{author}{Poutineau, J.C.}, \bibinfo{author}{Vermandel, G.},
+  \bibinfo{year}{2015}b.
+\newblock \bibinfo{title}{Financial frictions and the extensive margin of
+  activity}.
+\newblock \bibinfo{journal}{Research in Economics} \bibinfo{volume}{69},
+  \bibinfo{pages}{525--554}.
+%Type = Article
+\bibitem[{Priftis and Vogel(2016)}]{priftis2016portfolio}
+\bibinfo{author}{Priftis, R.}, \bibinfo{author}{Vogel, L.},
+  \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{The portfolio balance mechanism and qe in the euro
+  area}.
+\newblock \bibinfo{journal}{Manchester School, University of Manchester}
+  \bibinfo{volume}{84}, \bibinfo{pages}{84--105}.
+%Type = Article
+\bibitem[{Priftis and Vogel(2017)}]{priftis2017macroecon}
+\bibinfo{author}{Priftis, R.}, \bibinfo{author}{Vogel, L.},
+  \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{The macroeconomic effects of the ecb's evolving qe
+  programme: a model-based analysis}.
+\newblock \bibinfo{journal}{Open Economies Review} \bibinfo{volume}{28},
+  \bibinfo{pages}{823--845}.
+%Type = Article
+\bibitem[{Quint and Rabanal(2014)}]{QR2014}
+\bibinfo{author}{Quint, D.}, \bibinfo{author}{Rabanal, P.},
+  \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{{Monetary and Macroprudential Policy in an Estimated
+  DSGE Model of the Euro Area}}.
+\newblock \bibinfo{journal}{International Journal of Central Banking,
+  International Journal of Central Banking} \bibinfo{volume}{10},
+  \bibinfo{pages}{169--236}.
+%Type = Article
+\bibitem[{Rabanal(2007)}]{Rabanal2007}
+\bibinfo{author}{Rabanal, P.}, \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{Does inflation increase after a monetary policy
+  tightening? answers based on a estimated {DSGE} model}.
+\newblock \bibinfo{journal}{Journal of Economic Dynamics \& Control}
+  \bibinfo{volume}{31}, \bibinfo{pages}{906--937}.
+%Type = Article
+\bibitem[{Rabanal(2009)}]{Rabanal2009}
+\bibinfo{author}{Rabanal, P.}, \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{Inflation differentials between {Spain} and the
+  {EMU}: A {DSGE} perspective}.
+\newblock \bibinfo{journal}{Journal of Money, Credit and Banking}
+  \bibinfo{volume}{41(6)}, \bibinfo{pages}{1141--1166}.
+%Type = Article
+\bibitem[{Rabanal and Tuesta(2010)}]{rabanal2010euro}
+\bibinfo{author}{Rabanal, P.}, \bibinfo{author}{Tuesta, V.},
+  \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{Euro-dollar real exchange rate dynamics in an
+  estimated two-country model: An assessment}.
+\newblock \bibinfo{journal}{Journal of Economic Dynamics and Control}
+  \bibinfo{volume}{34}, \bibinfo{pages}{780--797}.
+%Type = Article
+\bibitem[{Rannenberg(2016)}]{rannenberg2016bank}
+\bibinfo{author}{Rannenberg, A.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Bank leverage cycles and the external finance
+  premium}.
+\newblock \bibinfo{journal}{Journal of Money, Credit and Banking}
+  \bibinfo{volume}{48}, \bibinfo{pages}{1569--1612}.
+%Type = Article
+\bibitem[{Ratto et~al.(2009)Ratto, Roeger and in~'t Veld}]{RattoRoegerVeld2009}
+\bibinfo{author}{Ratto, M.}, \bibinfo{author}{Roeger, W.},
+  \bibinfo{author}{in~'t Veld, J.}, \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{{QUEST III}: An estimated open-economy {DSGE} model
+  of the euro area with fiscal and monetary policy}.
+\newblock \bibinfo{journal}{Economic Modelling} \bibinfo{volume}{26(1)},
+  \bibinfo{pages}{222--233}.
+%Type = Article
+\bibitem[{Ravenna and Walsh(2006)}]{RavennaWalsh2006}
+\bibinfo{author}{Ravenna, F.}, \bibinfo{author}{Walsh, C.E.},
+  \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{Optimal monetary policy with the cost channel}.
+\newblock \bibinfo{journal}{Journal of Monetary Economics}
+  \bibinfo{volume}{53(2)}, \bibinfo{pages}{199--216}.
+%Type = Article
+\bibitem[{Ravn et~al.(2006)Ravn, Schmitt-Groh{\'e} and Uribe}]{ravn2006deep}
+\bibinfo{author}{Ravn, M.}, \bibinfo{author}{Schmitt-Groh{\'e}, S.},
+  \bibinfo{author}{Uribe, M.}, \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{Deep habits}.
+\newblock \bibinfo{journal}{The Review of Economic Studies}
+  \bibinfo{volume}{73}, \bibinfo{pages}{195--218}.
+%Type = Techreport
+\bibitem[{Reis(2009)}]{reis2009sticky}
+\bibinfo{author}{Reis, R.}, \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{A sticky-information general-equilibrium model for
+  policy analysis}.
+\newblock \bibinfo{type}{Technical Report}. National Bureau of Economic
+  Research.
+%Type = Article
+\bibitem[{Rotemberg(1982)}]{Rotemberg1982}
+\bibinfo{author}{Rotemberg, J.J.}, \bibinfo{year}{1982}.
+\newblock \bibinfo{title}{Sticky prices in the {United States}}.
+\newblock \bibinfo{journal}{Journal of Political Economy} \bibinfo{volume}{90
+  (4)}, \bibinfo{pages}{1187--1211}.
+%Type = Article
+\bibitem[{Rotemberg and Woodford(1997)}]{RotembergWoodford1997}
+\bibinfo{author}{Rotemberg, J.J.}, \bibinfo{author}{Woodford, M.},
+  \bibinfo{year}{1997}.
+\newblock \bibinfo{title}{An optimization-based econometric framework for the
+  evaluation of monetary policy}.
+\newblock \bibinfo{journal}{NBER Macroeconomics Annual} \bibinfo{volume}{12},
+  \bibinfo{pages}{297--346}.
+%Type = Incollection
+\bibitem[{Rudebusch and Svensson(1999)}]{RudebuschSvensson1999}
+\bibinfo{author}{Rudebusch, G.D.}, \bibinfo{author}{Svensson, L.E.O.},
+  \bibinfo{year}{1999}.
+\newblock \bibinfo{title}{Policy rules for inflation targeting}, in:
+  \bibinfo{editor}{Taylor, J.B.} (Ed.), \bibinfo{booktitle}{Monetary Policy
+  Rules}. \bibinfo{publisher}{Chicago: University of Chicago Press}, pp.
+  \bibinfo{pages}{203--262}.
+%Type = Article
+\bibitem[{Rychalovska(2016)}]{rychalovska2016}
+\bibinfo{author}{Rychalovska, Y.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{The implications of financial frictions and imperfect
+  knowledge in the estimated dsge model of the u.s. economy}.
+\newblock \bibinfo{journal}{Journal of Economic Dynamics and Control}
+  \bibinfo{volume}{73}, \bibinfo{pages}{259 -- 282}.
+%Type = Article
+\bibitem[{Schmitt-Groh{\'e} and Uribe(2003)}]{schmitt2003closing}
+\bibinfo{author}{Schmitt-Groh{\'e}, S.}, \bibinfo{author}{Uribe, M.},
+  \bibinfo{year}{2003}.
+\newblock \bibinfo{title}{Closing small open economy models}.
+\newblock \bibinfo{journal}{Journal of international Economics}
+  \bibinfo{volume}{61}, \bibinfo{pages}{163--185}.
+%Type = Article
+\bibitem[{Smets et~al.(2014)Smets, Warne and Wouters}]{smets2014warne}
+\bibinfo{author}{Smets, F.}, \bibinfo{author}{Warne, A.},
+  \bibinfo{author}{Wouters, R.}, \bibinfo{year}{2014}.
+\newblock \bibinfo{title}{Professional forecasters and real-time forecasting
+  with a dsge model}.
+\newblock \bibinfo{journal}{International Journal of Forecasting}
+  \bibinfo{volume}{30}, \bibinfo{pages}{981--995}.
+%Type = Article
+\bibitem[{Smets and Wouters(2003)}]{SmetsWouters2003}
+\bibinfo{author}{Smets, F.}, \bibinfo{author}{Wouters, R.},
+  \bibinfo{year}{2003}.
+\newblock \bibinfo{title}{An estimated dynamic stochastic general equilibrium
+  model of the euro area}.
+\newblock \bibinfo{journal}{Journal of the European Economic Association}
+  \bibinfo{volume}{1 (5)}, \bibinfo{pages}{1123--1175}.
+%Type = Article
+\bibitem[{Smets and Wouters(2007)}]{SmetsWouters2007}
+\bibinfo{author}{Smets, F.}, \bibinfo{author}{Wouters, R.},
+  \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{Shocks and frictions in {US} business cycles: A
+  bayesian {DSGE} approach}.
+\newblock \bibinfo{journal}{The American Economic Review}
+  \bibinfo{volume}{97(3)}, \bibinfo{pages}{586--606}.
+%Type = Article
+\bibitem[{St{\"a}hler and Thomas(2012)}]{stahler2012fimod}
+\bibinfo{author}{St{\"a}hler, N.}, \bibinfo{author}{Thomas, C.},
+  \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Fimod—a dsge model for fiscal policy simulations}.
+\newblock \bibinfo{journal}{Economic modelling} \bibinfo{volume}{29},
+  \bibinfo{pages}{239--261}.
+%Type = Article
+\bibitem[{Stracca(2013)}]{stracca2013inside}
+\bibinfo{author}{Stracca, L.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Inside money in general equilibrium: Does it matter
+  for monetary policy?}
+\newblock \bibinfo{journal}{Macroeconomic Dynamics} \bibinfo{volume}{17},
+  \bibinfo{pages}{563--590}.
+%Type = Article
+\bibitem[{Taylor(1980)}]{Taylor1980}
+\bibinfo{author}{Taylor, J.B.}, \bibinfo{year}{1980}.
+\newblock \bibinfo{title}{Aggregate dynamics and staggered contracts}.
+\newblock \bibinfo{journal}{Journal of Political Economy}
+  \bibinfo{volume}{88(1)}, \bibinfo{pages}{1--24}.
+%Type = Book
+\bibitem[{Taylor(1993)}]{Taylor1993a}
+\bibinfo{author}{Taylor, J.B.}, \bibinfo{year}{1993}.
+\newblock \bibinfo{title}{Macroeconomic Policy in a World Economy}.
+\newblock \bibinfo{publisher}{W.W. Norton, New York}.
+\newblock \bibinfo{note}{Online Edition available on:
+  http://www.stanford.edu/~johntayl/MacroPolicyWorld.htm}.
+%Type = Techreport
+\bibitem[{Taylor and Wieland(2009)}]{taylor2009surprising}
+\bibinfo{author}{Taylor, J.B.}, \bibinfo{author}{Wieland, V.},
+  \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{Surprising comparative properties of monetary models:
+  Results from a new data base}.
+\newblock \bibinfo{type}{Technical Report}. National Bureau of Economic
+  Research.
+%Type = Article
+\bibitem[{Taylor and Wieland(2011)}]{TaylorWieland2011}
+\bibinfo{author}{Taylor, J.B.}, \bibinfo{author}{Wieland, V.},
+  \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Surprising comparative properties of monetary models:
+  Results from a new data base}.
+\newblock \bibinfo{journal}{Review of Economics and Statistics}
+  \bibinfo{volume}{forthcoming}.
+%Type = Unpublished
+\bibitem[{Tinsley(1993)}]{Tinsley1993}
+\bibinfo{author}{Tinsley, P.A.}, \bibinfo{year}{1993}.
+\newblock \bibinfo{title}{Fitting both data and theories: Polynomial adjustment
+  costs and error-correction decision rules}.
+\newblock \bibinfo{note}{FEDS Working Paper 93-21}.
+%Type = Article
+\bibitem[{Townsend(1979)}]{townsend1979optimal}
+\bibinfo{author}{Townsend, R.M.}, \bibinfo{year}{1979}.
+\newblock \bibinfo{title}{Optimal contracts and competitive markets with costly
+  state verification}.
+\newblock \bibinfo{journal}{Journal of Economic theory} \bibinfo{volume}{21},
+  \bibinfo{pages}{265--293}.
+%Type = Unpublished
+\bibitem[{Trigari(2006)}]{Trigari2006}
+\bibinfo{author}{Trigari, A.}, \bibinfo{year}{2006}.
+\newblock \bibinfo{title}{The role of search frictions and bargaining for
+  inflation dynamics}.
+\newblock \bibinfo{note}{IGIER Working Paper No. 304}.
+%Type = Article
+\bibitem[{Verona et~al.(2013)Verona, Martins and Drumond}]{Veronaetal2013}
+\bibinfo{author}{Verona, F.}, \bibinfo{author}{Martins, M.M.F.},
+  \bibinfo{author}{Drumond, I.}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{(un)anticipated monetary policy in a dsge model with
+  a shadow banking system}.
+\newblock \bibinfo{journal}{International Journal of Central Banking}
+  \bibinfo{volume}{9}, \bibinfo{pages}{78--124}.
+%Type = Article
+\bibitem[{Villa(2016)}]{villa2016}
+\bibinfo{author}{Villa, S.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Finacial frictions in the euro area and the united
+  states: A bayesian assessment}.
+\newblock \bibinfo{journal}{Macroeconomic Dynamics} \bibinfo{volume}{20},
+  \bibinfo{pages}{1313--1340}.
+%Type = Book
+\bibitem[{Woodford(2003)}]{Woodford2003}
+\bibinfo{author}{Woodford, M.}, \bibinfo{year}{2003}.
+\newblock \bibinfo{title}{Interest and Prices: Foundations of a Theory of
+  Monetary Policy}.
+\newblock \bibinfo{publisher}{Princeton University Press}.
+%Type = Unpublished
+\bibitem[{Yellen(2007)}]{Yellen2007}
+\bibinfo{author}{Yellen, J.L.}, \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{{John Taylor's} contributions to monetary theory and
+  policy}.
+\newblock \bibinfo{note}{Speech at the Federal Reserve Bank of Dallas
+  Conference: "John Taylor's Contributions to Monetary Theory and Policy"}.
+%Type = Article
+\bibitem[{Yun(1996)}]{Yun1996}
+\bibinfo{author}{Yun, T.}, \bibinfo{year}{1996}.
+\newblock \bibinfo{title}{Nominal price rigidity, money supply endogeneity, and
+  business cycles}.
+\newblock \bibinfo{journal}{Journal of Monetary Economics}
+  \bibinfo{volume}{37}, \bibinfo{pages}{345--370}.
+
+\end{thebibliography}

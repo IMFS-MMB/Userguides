@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: mmb-model-description.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+The style file: elsarticle-harv.bst
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+Reallocating 'field_info' (item size: 4) to 10017 items.
+Database file #1: ../dynaremodelbase.bib
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Warning--empty journal in brayton2022linver
+Warning--can't use both author and editor fields in giannoni2003optimal
+Warning--empty chapter and pages in giannoni2003optimal
+Warning--empty pages in giannoni2003optimal
+Warning--empty journal in millard2011estimated
+You've used 173 entries,
+            2990 wiz_defined-function locations,
+            1606 strings with 32258 characters,
+and the built_in function-call counts, 107473 in all, are:
+= -- 8302
+> -- 3561
+< -- 113
++ -- 1466
+- -- 1204
+* -- 11344
+:= -- 15571
+add.period$ -- 514
+call.type$ -- 173
+change.case$ -- 1280
+chr.to.int$ -- 168
+cite$ -- 178
+duplicate$ -- 8351
+empty$ -- 8322
+format.name$ -- 1800
+if$ -- 20160
+int.to.chr$ -- 6
+int.to.str$ -- 1
+missing$ -- 1541
+newline$ -- 875
+num.names$ -- 698
+pop$ -- 3027
+preamble$ -- 1
+purify$ -- 1092
+quote$ -- 0
+skip$ -- 2311
+stack$ -- 0
+substring$ -- 5067
+swap$ -- 5686
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1548
+warning$ -- 5
+while$ -- 702
+width$ -- 0
+write$ -- 2401
+(There were 5 warnings)
