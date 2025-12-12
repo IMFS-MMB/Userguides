@@ -45,9 +45,9 @@
 	\newcounter{ALnumber}
 	
 	% ENTER NUMBER OF NK-MODELS
-	\setcounter{NKnumber}{45}
+	\setcounter{NKnumber}{50}
 	% ENTER NUMBER OF US-MODELS
-	\setcounter{USnumber}{66}
+	\setcounter{USnumber}{69}
 	% ENTER NUMBER OF EA-MODELS
 	\setcounter{EAnumber}{20}
 	% ENTER NUMBER OF MULTI COUNTRY-MODELS
@@ -70,7 +70,7 @@
 	\begin{center}
 		\textsc{\textbf{A List of Models Available in the Macroeconomic Model Data Base} } \\
 		%	\textsc{\textbf{(version 3.1, 154 models$^\ast$ )} }
-		\textsc{\textbf{(version 3.3, \the\value{numbermodels} models$^\ast$ )} }
+		\textsc{\textbf{(version 3.4.1, \the\value{numbermodels} models$^\ast$ )} }
 	\end{center}
 	\vfill
 	%\noindent \footnotesize $^\ast$ There are in total 154 models available, including all model variations such as adaptive learning versions, extended models or re-estimated models. 
@@ -90,52 +90,57 @@
 			%\multicolumn{3}{l}{\textsc{1. Calibrated Models (43 models)}} \\
 			\multicolumn{3}{l}{\textsc{1. Calibrated Models (\the\value{NKnumber} models)}} \\
 			
-			1.1	&	NK\_AFL15\footnotemark[2]	&	\cite{Angelonietal2015}	\\								
-			1.2	&	NK\_BGEU10	&	\cite{BlanchardGali10}	Calibrated	for	the	European	labor	market	\\		
+			1.1	&	NK\_ADE25cpi	&	\cite{Auray2025}: Central Banks targets CPI inflation 	\\								
+			&	NK\_ADE25ppi	&	\cite{Auray2025}: Central Banks targets PPI inflation	\\								
+			1.2	&	NK\_AFL15\footnotemark[2]	&	\cite{Angelonietal2015}	\\								
+			1.3	&	NK\_BGEU10	&	\cite{BlanchardGali10}	Calibrated	for	the	European	labor	market	\\		
 			&	NK\_BGUS10	&	\cite{BlanchardGali10}	Calibrated	for	the	U.S.	labor	market\\	
-			1.3	&	NK\_BGG99	&	\cite{BernankeGertlerGilchrist1999}	\\
-			1.4 & NK\_CDK24 & \cite{chan2024energy}  \\								
-			1.5	&	NK\_CFP10	&	\cite{carlstrom2010optimal}	\\								
-			1.6\footnotemark[1]	&	NK\_CGG99	&	\cite{ClaridaGaliGertler1999}\\%	-	(no	replication	package)	\\				
-			1.7\footnotemark[1]	&	NK\_CGG02	&	\cite{ClaridaGaliGertler2002}\\%	-	(no	replication	package)	\\				
-			1.8\footnotemark[1]	&	NK\_CK08	&	\cite{ChristoffelKuester2008}\\%	-	(no	replication	package)\\					
-			1.9\footnotemark[1]	&	NK\_CKL09	&	\cite{ChristoffelKuesterLinzert2009}\\%	-	(no	replication	package)\\					
-			1.10	&	NK\_CW09	&	\cite{CurdiaWoodford2009}	\\	
-			1.11	&	NK\_DEFK17	&	\cite{delnegro2017eggertson}	\\								
-			1.12	&	NK\_DT12		&	\cite{defiore2012tristani}	\\								
-			1.13	&	NK\_ET14		&	\cite{EllisonTischbirek2014}	\\								
-			1.14	&	NK\_FLMF18	&	\cite{filardo2018monetary}	\\
-			1.15& NK\_FNL23 & \cite{ferraria2023toward} \\								
-			1.16	&	NK\_GHP16	&	\cite{gnocci2016housework}	\\	
-			1.17	&	NK\_GK11	&	\cite{GertlerKaradi2011}	\\								
+			1.4	&	NK\_BGG99	&	\cite{BernankeGertlerGilchrist1999}	\\
+			1.5 & NK\_CDK24 & \cite{chan2024energy}  \\								
+			1.6	&	NK\_CFP10	&	\cite{carlstrom2010optimal}	\\								
+			1.7\footnotemark[1]	&	NK\_CGG99	&	\cite{ClaridaGaliGertler1999}\\%	-	(no	replication	package)	\\				
+			1.8\footnotemark[1]	&	NK\_CGG02	&	\cite{ClaridaGaliGertler2002}\\%	-	(no	replication	package)	\\				
+			1.9\footnotemark[1]	&	NK\_CK08	&	\cite{ChristoffelKuester2008}\\%	-	(no	replication	package)\\					
+			1.10\footnotemark[1]	&	NK\_CKL09	&	\cite{ChristoffelKuesterLinzert2009}\\%	-	(no	replication	package)\\					
+			1.11	&	NK\_CW09	&	\cite{CurdiaWoodford2009}	\\	
+			1.12	&	NK\_DEFK17	&	\cite{delnegro2017eggertson}	\\								
+			1.13	&	NK\_DT12		&	\cite{defiore2012tristani}	\\								
+			1.14	&	NK\_ET14		&	\cite{EllisonTischbirek2014}	\\								
+			1.15	&	NK\_FLMF18	&	\cite{filardo2018monetary}	\\
+			1.16	&	NK\_FNL23	&	\cite{ferraria2023toward} \\								
+			1.17	&	NK\_GHP16	&	\cite{gnocci2016housework}	\\	
+			1.18	&	NK\_GK11	&	\cite{GertlerKaradi2011}	\\								
 			&	NK\_GK09lin	&	linear	model	based	on	the	working	paper	of	\cite{GertlerKaradi2011}	\\
-			1.18	&	NK\_GK13	&	\cite{GertlerKaradi2013}	\\		
-			1.19	&	NK\_GLSV07	&	\cite{gali2007understanding}	\\
-			1.20	&	NK\_GM05	&	\cite{GaliMonacelli2005}	\\								
-			1.21	&	NK\_GM07	&	\cite{goodfriend2007banking}	\\								
-			1.22	&	NK\_GM16	&	\cite{gali2016understanding}	\\														
-			1.23	&	NK\_GS14	&	\cite{gambacorta2014should}	\\								
-			1.24	&	NK\_GSSZ17	&	\cite{gilchrist2017inflation}	\\								
-			1.25	&	NK\_IR04	&	\cite{Ireland2004}	\\								
-			1.26	&	NK\_JO15ht	&	\cite{jang2015okano}	-	high	trading\\						
+			1.19	&	NK\_GK13	&	\cite{GertlerKaradi2013}	\\		
+			1.20	&	NK\_GLSV07	&	\cite{gali2007understanding}	\\
+			1.21	&	NK\_GM05	&	\cite{GaliMonacelli2005}	\\								
+			1.22	&	NK\_GM07	&	\cite{goodfriend2007banking}	\\								
+			1.23	&	NK\_GM16	&	\cite{gali2016understanding}	\\														
+			1.24	&	NK\_GMAS25cpi	&	\cite{monacelli2025tariffs}: Central Bank targets CPI inflation	\\								
+			&	NK\_GMAS25ppi	&	\cite{monacelli2025tariffs}: Central Bank targets PPI inflation	\\								
+			1.25	&	NK\_GN25	&	\cite{Gnocato2025}	\\								
+			1.26	&	NK\_GS14	&	\cite{gambacorta2014should}	\\								
+			1.27	&	NK\_GSSZ17	&	\cite{gilchrist2017inflation}	\\								
+			1.28	&	NK\_IR04	&	\cite{Ireland2004}	\\								
+			1.29	&	NK\_JO15ht	&	\cite{jang2015okano}	-	high	trading\\						
 			&	NK\_JO15lt	&	\cite{jang2015okano}	-	low	trading\\						
-			1.27	&	NK\_KM16	&	\cite{krause2016public}	\\								
-			1.28	&	NK\_KRS12	&	\cite{KannanRabanalScott2012}	\\								
-			1.29	&	NK\_KW16	&	\cite{kirchner2016fiscal}	\\								
-			1.30\footnotemark[1]	&	NK\_LWW03	&	\cite{LevinWielandWilliams2003}\\%	-	(no	replication	package)	\\				
-			1.31\footnotemark[1]	&	NK\_MCN99cr	&	\cite{McCallumNelson1999},	(Calvo-Rotemberg	model)\\%	-	(no	replication	package)\\	
-			1.32	&	NK\_MI14	&	\cite{michaillat2014atheory}	\\								
+			1.30	&	NK\_KM16	&	\cite{krause2016public}	\\								
+			1.31	&	NK\_KRS12	&	\cite{KannanRabanalScott2012}	\\								
+			1.32	&	NK\_KW16	&	\cite{kirchner2016fiscal}	\\								
+			1.33\footnotemark[1]	&	NK\_LWW03	&	\cite{LevinWielandWilliams2003}\\%	-	(no	replication	package)	\\				
+			1.34\footnotemark[1]	&	NK\_MCN99cr	&	\cite{McCallumNelson1999},	(Calvo-Rotemberg	model)\\%	-	(no	replication	package)\\	
+			1.35	&	NK\_MI14	&	\cite{michaillat2014atheory}	\\								
 			
-			1.33 &	NK\_MM10	&	\cite{MehMoran2010}	\\								
-			1.34	&	NK\_MPT10	&	\cite{monacelli2010unemployment}	\\								
-			1.35	&	NK\_NS14	&	\cite{NakamuraSteinsson2014}	\\								
-			1.36	&	NK\_PP17	&	\cite{paoli2017coordinating}	\\								
-			1.37	&	NK\_PSV16	&	\cite{pancrazi2016price}	\\								
-			1.38	&	NK\_RA16	&	\cite{rannenberg2016bank}	\\								
-			1.39\footnotemark[1]	&	NK\_RW06	&	\cite{RavennaWalsh2006}\\%	-	(no	replication	package)\\					
-			1.40\footnotemark[1]	&	NK\_RW97	&	\cite{RotembergWoodford1997}	\\%-	(no	replication	package)\\					
-			1.41	&	NK\_ST13	&	\cite{stracca2013inside}	\\								
-			1.42	&	RBC\_DTT11	&	\cite{DeFioreetal2011}	\\								
+			1.36 &	NK\_MM10	&	\cite{MehMoran2010}	\\								
+			1.37	&	NK\_MPT10	&	\cite{monacelli2010unemployment}	\\								
+			1.38	&	NK\_NS14	&	\cite{NakamuraSteinsson2014}	\\								
+			1.39	&	NK\_PP17	&	\cite{paoli2017coordinating}	\\								
+			1.40	&	NK\_PSV16	&	\cite{pancrazi2016price}	\\								
+			1.41	&	NK\_RA16	&	\cite{rannenberg2016bank}	\\								
+			1.42\footnotemark[1]	&	NK\_RW06	&	\cite{RavennaWalsh2006}\\%	-	(no	replication	package)\\					
+			1.43\footnotemark[1]	&	NK\_RW97	&	\cite{RotembergWoodford1997}	\\%-	(no	replication	package)\\					
+			1.44	&	NK\_ST13	&	\cite{stracca2013inside}	\\								
+			1.45	&	RBC\_DTT11	&	\cite{DeFioreetal2011}	\\								
 			
 			&& \\
 			%\multicolumn{3}{l}{\textsc{2. Estimated US Models (60 models)}} \\
@@ -172,45 +177,47 @@
 			2.2 & US\_AJ16 & \cite{ajello2016financial}\\
 			2.3 & US\_BB18 & \cite{balke2018oil}\\
 			2.4	&	US\_BKM12	&	\cite{bils2012reset}\\	
-			2.5&	US\_CCF12	&	\cite{chen2012macroeconomic}\\								
-			2.6	&	US\_CCTW10	&	\cite{SmetsWouters2007}	model	with	rule-of-thumb	consumers,\\					
+			2.5	&	US\_BR13	&	\cite{Blanchard2013}\\	
+			2.6&	US\_CCF12	&	\cite{chen2012macroeconomic}\\								
+			2.7	&	US\_CCTW10	&	\cite{SmetsWouters2007}	model	with	rule-of-thumb	consumers,\\					
 			&&	estimated	by	\cite{CoganCwikTaylorWieland2010}\\
-			2.7	&	US\_CD08	&	\cite{ChristensenDib2008}	\\
-			2.8	&	US\_CET15	&	\cite{christiano2015eichenbaum}\\									
-			2.9	&	US\_CFOP14	&	\cite{Carlstrometal2014}\\									
-			2.10	&	US\_CFP17exo	&	\cite{carlstrom2017targeting}	-	exogenous	level	of	long-term	debt\\			
+			2.8	&	US\_CD08	&	\cite{ChristensenDib2008}	\\
+			2.9	&	US\_CET15	&	\cite{christiano2015eichenbaum}\\									
+			2.10	&	US\_CFOP14	&	\cite{Carlstrometal2014}\\									
+			2.11	&	US\_CFP17exo	&	\cite{carlstrom2017targeting}	-	exogenous	level	of	long-term	debt\\			
 			&	US\_CFP17endo	&	\cite{carlstrom2017targeting}	-	endogenous	level	of	long-term	debt\\			
-			2.11	&	US\_CMR10	&	\cite{Christianoetal2010}	\\								
+			2.12	&	US\_CMR10	&	\cite{Christianoetal2010}	\\								
 			&	US\_CMR10fa	&	\cite{Christianoetal2010}	-	small	version	with	financial	accelerator	\\		
-			2.12	&	US\_CMR14	$	\footnotemark[3]$	&	\cite{CMR2014}	\\					
+			2.13	&	US\_CMR14	$	\footnotemark[3]$	&	\cite{CMR2014}	\\					
 			&	US\_CMR14noFA	$	\footnotemark[3]$	&	\cite{CMR2014}-Version	without	financial	frictions	\\		
-			2.13	&	US\_CPS10	&	\cite{Cogleyetal2010}	\\								
+			2.14	&	US\_CPS10	&	\cite{Cogleyetal2010}	\\								
 			
-			2.14	&	US\_DG08	&	\cite{DeGraeve2008}	\\															
-			2.15	&	US\_DNGS15	&	\cite{del2015inflation}	\\								
+			2.15	&	US\_DG08	&	\cite{DeGraeve2008}	\\															
+			2.16	&	US\_DNGS15	&	\cite{del2015inflation}	\\								
 			&	US\_DNGS15\_SW	&	\cite{del2015inflation}	w/o	financial	frictions\\						
 			&	US\_DNGS15\_SWpi	&	\cite{del2015inflation}	w/o	financial	frictions	and	time-varying	inflation	target	\\	
 			&	US\_DNGS15\_SWSP	&	\cite{del2015inflation}	reestimation	of	\cite{SmetsWouters2007}	\\					
 			&	&	with	longer	time-series	\\							
 			
-			2.16	&	US\_FGKR15	&	\cite{FernandezVillaverdeetal2015}	\\								
-			2.17	&	US\_FM95	&	\cite{FuhrerMoore1995}	\\								
-			2.18	&	US\_FMS13	&	\cite{Feveetal2013}	\\								
-			2.19	&	US\_FRB03	&	Federal	Reserve	Board	model	linearized	as	in	\cite{LevinWielandWilliams2003}	\\	
-			2.20\footnotemark[1]	&	US\_FRB08	&	linearized	by	\cite{BraytonLaubach2008}\\%	-	(no	replication	package)\\			
+			2.17	&	US\_FGKR15	&	\cite{FernandezVillaverdeetal2015}	\\								
+			2.18	&	US\_FM95	&	\cite{FuhrerMoore1995}	\\								
+			2.19	&	US\_FMS13	&	\cite{Feveetal2013}	\\								
+			2.20	&	US\_FRB03	&	Federal	Reserve	Board	model	linearized	as	in	\cite{LevinWielandWilliams2003}	\\	
+			2.21\footnotemark[1]	&	US\_FRB08	&	linearized	by	\cite{BraytonLaubach2008}\\%	-	(no	replication	package)\\			
 			&	US\_FRB08mx	&	linearized	by	\cite{BraytonLaubach2008},	(mixed	expectations)	\\			
-			2.21& US\_FRB22\_mceall & \cite{brayton2022linver}: all expectations are model consistent\\
+			2.22& US\_FRB22\_mceall & \cite{brayton2022linver}: all expectations are model consistent\\
 			& US\_FRB22\_mcapwp & \cite{brayton2022linver}: financial market, wage and price \\&&expectations are model consistent, other expectations are based on a small VAR\\
 			& US\_FRB22\_mcap & \cite{brayton2022linver}: financial market expectations are model\\&& consistent, other expectations are based on a small VAR\\
 			& US\_FRB22\_var & \cite{brayton2022linver}: all expectations are based on VAR predictions\\
-			2.22	&	US\_FU19	&	\cite{fratto2019uhlig}	\\								
-			2.23	&	US\_FV10	&	\cite{fernandez2010econometrics}\\									
-			2.24	&	US\_FV15	&	\cite{fernandez2015estimating}\\									
-			2.25	&	US\_HL16	&	\cite{hollander2016liu}	\\								
-			2.26	&	US\_IAC05	&	\cite{Iacoviello2005}	\\								
-			2.27	&	US\_IN10	&	\cite{IacovielloNeri2010}	\\								
-			2.28	&	US\_IR11	&	\cite{Ireland2011}	\\								
-			2.29	&	US\_IR15	&	\cite{ireland2015monetary}\\									
+			2.23	&	US\_FU19	&	\cite{fratto2019uhlig}	\\								
+			2.24	&	US\_FV10	&	\cite{fernandez2010econometrics}\\									
+			2.25	&	US\_FV15	&	\cite{fernandez2015estimating}\\									
+			2.26	&	US\_GG24	&	\cite{gagliardoneoil2024}\\									
+			2.27	&	US\_HL16	&	\cite{hollander2016liu}	\\								
+			2.28	&	US\_IAC05	&	\cite{Iacoviello2005}	\\								
+			2.29	&	US\_IN10	&	\cite{IacovielloNeri2010}	\\								
+			2.30	&	US\_IR11	&	\cite{Ireland2011}	\\								
+			2.31	&	US\_IR15	&	\cite{ireland2015monetary}\\																
 											
 			&&\\	
 			%\ref{USNFED08}  & US\_NFED08 $^{\ast}$ & based on \cite{EdgeKileyLaforte2007}, version used for estimation in \\
@@ -230,33 +237,34 @@
 			\hline \hline
 			&& \\
 			\multicolumn{3}{l}{\textsc{2. Estimated US Models (continued)}} \\
-			2.30	&	US\_JPT11	&	\cite{Justinianoetal2011}\\	
-			2.31	&	US\_KK14	&	\cite{kliem2014kriwoluzky}	\\								
-			2.32	&	US\_KS15	&	\cite{kriwoluzky2015stoltenberg}	\\								
-			2.33	&	US\_LTW17	&	\cite{leeper2017traum}	\\								
+			2.32	&	US\_JPT11	&	\cite{Justinianoetal2011}\\	
+			2.33	&	US\_KK14	&	\cite{kliem2014kriwoluzky}	\\								
+			2.34	&	US\_KS15	&	\cite{kriwoluzky2015stoltenberg}	\\								
+			2.35	&	US\_LTW17	&	\cite{leeper2017traum}	\\								
 			&	US\_LTW17gz &	\cite{leeper2017traum} - different fiscal rule\\		
 						&	US\_LTW17nu &	\cite{leeper2017traum} - no government consumption in utility function\\											
 			&	US\_LTW17rot &	\cite{leeper2017traum} - rule of thumb consumers\\											
 			
-			2.34	&	US\_LWY13	&	\cite{leeper2013fiscal}\\									
-			2.35\footnotemark[1]	&	US\_MI07	&	\cite{Milani2007}\\%	-	(no	replication	package)	\\								
-			2.36	&	US\_MR07	&	\cite{MankiwReis2007}	\\								
-			2.37\footnotemark[1]	&	US\_OR03	&	\cite{Orphanides2003}\\%	-	(no	replication	package)\\		
+			2.36	&	US\_LWY13	&	\cite{leeper2013fiscal}\\									
+			2.37\footnotemark[1]	&	US\_MI07	&	\cite{Milani2007}\\%	-	(no	replication	package)	\\								
+			2.38	&	US\_MR07	&	\cite{MankiwReis2007}	\\								
+			2.39\footnotemark[1]	&	US\_OR03	&	\cite{Orphanides2003}\\%	-	(no	replication	package)\\		
 			
-			2.38	&	US\_OW98	&	\cite{OrphanidesWieland1998}	equivalent	to	MSR	model	in	\\			
+			2.40	&	US\_OW98	&	\cite{OrphanidesWieland1998}	equivalent	to	MSR	model	in	\\			
 			&	&	\cite{LevinWielandWilliams2003}	\\			
-			2.39\footnotemark[1]	&	US\_PM08	&	IMF	projection	model	US,	\cite{Carabenciovetal2008}\\%	-	(no	replication	package)	\\				
-			2.40	&	US\_PM08fl	&	IMF	projection	model	US	(financial	linkages),\cite{Carabenciovetal2008}	\\			
-			2.41	&	US\_PV15	&	\cite{poutineau2015financial}	\\								
-			2.42	&	US\_RA07	&	\cite{Rabanal2007}	\\								
-			2.43	&	US\_RE09	&	\cite{reis2009sticky}\\									
-			2.44\footnotemark[1]	&	US\_RS99	&	\cite{RudebuschSvensson1999}\\%	-	(no	replication	package)\\					
-			2.45	&	US\_SW07	&	\cite{SmetsWouters2007}	\\								
-			2.46	&	US\_VI16bgg	&	\cite{villa2016} - with \cite{BernankeGertlerGilchrist1999} financial accelerator \\								
+			2.41\footnotemark[1]	&	US\_PM08	&	IMF	projection	model	US,	\cite{Carabenciovetal2008}\\%	-	(no	replication	package)	\\				
+			&	US\_PM08fl	&	IMF	projection	model	US	(financial	linkages),\cite{Carabenciovetal2008}	\\			
+			2.42	&	US\_PV15	&	\cite{poutineau2015financial}	\\								
+			2.43	&	US\_RA07	&	\cite{Rabanal2007}	\\								
+			2.44	&	US\_RE09	&	\cite{reis2009sticky}\\									
+			2.45\footnotemark[1]	&	US\_RS99	&	\cite{RudebuschSvensson1999}\\%	-	(no	replication	package)\\					
+			2.46	&	US\_SW07	&	\cite{SmetsWouters2007}	\\								
+			2.47	&	US\_VGIP15	&	\cite{Vasconez2015}	\\								
+			2.48	&	US\_VI16bgg	&	\cite{villa2016} - with \cite{BernankeGertlerGilchrist1999} financial accelerator \\								
 			&	US\_VI16gk &	\cite{villa2016} - with \cite{GertlerKaradi2013} financial friction  \\											
-			2.47\footnotemark[1]	&	US\_VMDno	&	Verona,	Martins	and	Drumond	(\cite{Veronaetal2013})	-	Normal	times\\%		-	(no	replication	package)\\	
-			2.48\footnotemark[1]	&	US\_VMDop	&	Verona,	Martins	and	Drumond	(\cite{Veronaetal2013})	-	Optimistic	times\\%		-	(no	replication	package)\\	
-			2.49\footnotemark[1]	&	US\_YR13	&	\cite{rychalovska2016}\\%	-	(no	replication	package)	\\							
+			2.49\footnotemark[1]	&	US\_VMDno	&	Verona,	Martins	and	Drumond	(\cite{Veronaetal2013})	-	Normal	times\\%		-	(no	replication	package)\\	
+			2.50\footnotemark[1]	&	US\_VMDop	&	Verona,	Martins	and	Drumond	(\cite{Veronaetal2013})	-	Optimistic	times\\%		-	(no	replication	package)\\	
+			2.51\footnotemark[1]	&	US\_YR13	&	\cite{rychalovska2016}\\%%	-	(no	replication	package)	\\							
 			
 			
 			&& \\		
@@ -285,7 +293,7 @@
 			3.16	&	EA\_SW03	&	\cite{SmetsWouters2003}	\\										
 			3.17	&	EA\_SWW14	&	\cite{smets2014warne}	\\										
 			3.18	&	EA\_VI16bgg	&	\cite{villa2016} - with \cite{BernankeGertlerGilchrist1999} financial accelerator \\										
-			&	EA\_VI16gk	&	\cite{villa2016} - with \cite{GertlerKaradi2013} financial friction  \\										
+			&	EA\_VI16gk	&	\cite{villa2016} - with \cite{GertlerKaradi2013} financial friction  \\							
 
 			%	\multicolumn{3}{l}{\textsc{4. Estimated/Calibrated Multi-Country Models (8 models)}} \\
 			
