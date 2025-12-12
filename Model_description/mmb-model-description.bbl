@@ -77,6 +77,13 @@
 \newblock \bibinfo{journal}{IMF Economic Review} \bibinfo{volume}{61},
   \bibinfo{pages}{199--224}.
 %Type = Article
+
+\bibitem[{Auray et~al.(2025)}]{Auray2025}
+\bibinfo{author}{Auray, Stéphane, Michael B. Devereux, and Aurélien Eyquem}, \bibinfo{year}{2025}.
+\newblock \bibinfo{title}{Trade wars and the optimal design of monetary rules}.
+\newblock \bibinfo{journal}{Journal of Monetary Economics}
+  \bibinfo{volume}{151}, \bibinfo{pages}{103726}.
+
 \bibitem[{Bailliu et~al.(2012)Bailliu, Meh and Zhang}]{Bailliuetal2012}
 \bibinfo{author}{Bailliu, J.}, \bibinfo{author}{Meh, C.},
   \bibinfo{author}{Zhang, Y.}, \bibinfo{year}{2012}.
@@ -153,6 +160,13 @@
   \bibinfo{year}{2007}.
 \newblock \bibinfo{title}{The macroeconomic effects of oil shocks: Why are the
   2000s so different from the 1970s?}
+
+\bibitem[{Blanchard and Riggi (2013)}]{Blanchard2013}
+\bibinfo{author}{Blanchard, Olivier J and Riggi, Marianna}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Why are the 2000s so different from the 1970s? A structural interpretation of changes in the macroeconomic effects of oil prices}.
+\newblock \bibinfo{journal}{Journal of the European Economic Association}
+  \bibinfo{volume}{11}, \bibinfo{pages}{1032--1052}.
+
 %Type = Article
 \bibitem[{Boivin and Giannoni(2006)}]{boivin2006has}
 \bibinfo{author}{Boivin, J.}, \bibinfo{author}{Giannoni, M.P.},
@@ -647,6 +661,12 @@
   and the euro area with gear}.
 \newblock \bibinfo{journal}{Economic Modelling} \bibinfo{volume}{52},
   \bibinfo{pages}{997--1016}.
+
+\bibitem[{Gagliardone and Gertler (2024)}]{gagliardoneoil2024}
+\bibinfo{author}{Gagliardone, Luca and Gertler, Mark}, \bibinfo{year}{2024}.
+\newblock \bibinfo{title}{Oil Prices, Monetary Policy and Inflation Surges}.
+\newblock \bibinfo{journal}{Available at SSRN: https://ssrn.com/abstract=4381781 or http://dx.doi.org/10.2139/ssrn.4381781}.
+
 %Type = Misc
 \bibitem[{Gal{\'\i}(2008)}]{gali2008monetary}
 \bibinfo{author}{Gal{\'\i}, J.}, \bibinfo{year}{2008}.
@@ -747,6 +767,13 @@
 \newblock \bibinfo{title}{Inflation dynamics during the financial crisis}.
 \newblock \bibinfo{journal}{American Economic Review} \bibinfo{volume}{107},
   \bibinfo{pages}{785--823}.
+
+\bibitem[{Gnocato(2025)}]{Gnocato2025}
+\bibinfo{author}{Gnocato, Nicolò}, \bibinfo{year}{2025}.
+\newblock \bibinfo{title}{Energy price shocks, unemployment, and monetary policy}.
+\newblock \bibinfo{journal}{Journal of Monetary Economics}
+  \bibinfo{volume}{151}, \bibinfo{pages}{844--854}.
+
 %Type = Article
 \bibitem[{Gnocci et~al.(2016)Gnocci, Hauser and Pappa}]{gnocci2016housework}
 \bibinfo{author}{Gnocci, S.}, \bibinfo{author}{Hauser, D.},
@@ -1014,6 +1041,12 @@
 \bibinfo{author}{Millard, S.}, \bibinfo{year}{2011}.
 \newblock \bibinfo{title}{An estimated dsge model of energy, costs and
   inflation in the united kingdom} .
+
+  \bibitem[{Monacelli(2025)}]{monacelli2025tariffs}
+\bibinfo{author}{Monacelli, T.}, \bibinfo{year}{2025}.
+\newblock \bibinfo{title}{Tariffs and Monetary Policy}.
+\newblock \bibinfo{journal}{Unpublished Manuscript}, Bocconi University, IGIER and CEPR,
+  \bibinfo{month}{November}.
 %Type = Article
 \bibitem[{Monacelli et~al.(2010)Monacelli, Perotti and
   Trigari}]{monacelli2010unemployment}
@@ -1310,6 +1343,13 @@
 \newblock \bibinfo{title}{The role of search frictions and bargaining for
   inflation dynamics}.
 \newblock \bibinfo{note}{IGIER Working Paper No. 304}.
+
+\bibitem[{Vasconez et~al.(2015)}]{Vasconez2015}
+\bibinfo{author}{V{\'a}sconez, Ver{\'o}nica Acurio and Giraud, Ga{\"e}l and Mc Isaac, Florent and Pham, Ngoc-Sang}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{The effects of oil price shocks in a new-Keynesian framework with capital accumulation}.
+\newblock \bibinfo{journal}{Energy Policy}
+  \bibinfo{volume}{86}, \bibinfo{pages}{844--854}.
+
 %Type = Article
 \bibitem[{Verona et~al.(2013)Verona, Martins and Drumond}]{Veronaetal2013}
 \bibinfo{author}{Verona, F.}, \bibinfo{author}{Martins, M.M.F.},
@@ -1345,5 +1385,16 @@
   business cycles}.
 \newblock \bibinfo{journal}{Journal of Monetary Economics}
   \bibinfo{volume}{37}, \bibinfo{pages}{345--370}.
+
+
+
+
+
+
+
+
+
+
+
 
 \end{thebibliography}

@@ -36,7 +36,7 @@
 	
 	\begin{center}
 		\textsc{\textbf{A List of Models Available in the Macroeconomic Model Data Base} } \\
-		\textsc{\textbf{(version 3.3)} }
+		\textsc{\textbf{(version 3.4.1)} }
 	\end{center}
 	\vfill
 	%\noindent \footnotesize $^\ast$ In total there are 114 models including all model variations such as adaptive learning versions. The Macroeconomic Model Data Base features 99 distinct models. 
@@ -51,6 +51,10 @@
 			&& \\
 			\multicolumn{3}{l}{\textsc{1. Calibrated Models}} \\
 			%&& \\
+			\ref{NKADE25cpi} & NK\_ADE25cpi & \cite{Auray2025}: Central Banks targets CPI inflation \\
+
+			 & NK\_ADE25ppi & \cite{Auray2025}: Central Banks targets PPI inflation  \\
+
 			\ref{NKAFL15} & NK\_AFL15 $ ^{\ast}$  & \cite{Angelonietal2015} \\
 			%&& \\
 			\ref{NKBGEU10} & NK\_BGEU10 & \cite{BlanchardGali10} Calibrated for the European labor market \\
@@ -82,6 +86,7 @@
 			\ref{NKFLMF18} & NK\_FLMF18 & \cite{filardo2018monetary} \\
 			%&& \\
 			\ref{NKFNL23} & NK\_FNL23 & \cite{ferraria2023toward} \\
+
 			%&& \\
 			\ref{NKGHP16} & NK\_GHP16 & \cite{gnocci2016housework} \\
 			%&& \\
@@ -94,10 +99,18 @@
 			\ref{NKGLSV07} & NK\_GLSV07 & \cite{gali2007understanding} \\
 			%&& \\
 			\ref{NKGM05} & NK\_GM05 & \cite{GaliMonacelli2005} \\
+
+			
 			%&& \\
 			\ref{NKGM07} & NK\_GM07 & \cite{goodfriend2007banking} \\
 			%&& \\
 			\ref{NKGM16} & NK\_GM16 & \cite{gali2016understanding} \\
+			
+			\ref{NKGMAS25cpi} & NK\_GMAS25cpi & \cite{monacelli2025tariffs}: Central Bank targets CPI inflation \\
+
+			 & NK\_GMAS25ppi & \cite{monacelli2025tariffs}: Central Bank targets PPI inflation \\
+
+			\ref{NKGN25} & NK\_GN25 & \cite{Gnocato2025} \\
 			%&& \\
 			\ref{NKGS14} & NK\_GS14 & \cite{gambacorta2014should} \\
 			%&& \\
@@ -133,14 +146,7 @@
 			%&& \\
 			\ref{NKRA16} & NK\_RA16 &  \cite{rannenberg2016bank} \\
 			%&& \\
-			\ref{NKRW06} & NK\_RW06 & \cite{RavennaWalsh2006} \\
-			%&& \\
-			\ref{NKRW9} & NK\_RW97  & \cite{RotembergWoodford1997} \\
-			%&& \\
-			\ref{NKST13} & NK\_ST13  & \cite{stracca2013inside} \\
-			%&& \\
-			\ref{RBCDTT11} & RBC\_DTT11 & \cite{DeFioreetal2011} \\
-			&& \\
+			
 
 			%&& \\
 			%		&& \\
@@ -165,6 +171,19 @@
 		\begin{tabularx}{\textwidth}{lll}
 			\hline \hline
 			&& \\
+			\multicolumn{3}{l}{\textsc{1. Calibrated Models (continued) }} \\
+
+			\ref{NKRW06} & NK\_RW06 & \cite{RavennaWalsh2006} \\
+			%&& \\
+			\ref{NKRW9} & NK\_RW97  & \cite{RotembergWoodford1997} \\
+			%&& \\
+			\ref{NKST13} & NK\_ST13  & \cite{stracca2013inside} \\
+			%&& \\
+			\ref{RBCDTT11} & RBC\_DTT11 & \cite{DeFioreetal2011} \\
+			&& \\
+
+
+
 			\multicolumn{3}{l}{\textsc{2. Estimated US Models}} \\
 			%&& \\
 			\ref{USACELm} & US\_ACELm & \cite{AltigChristianoEichenbaumLinde2005}, (monetary policy shock)  \\
@@ -178,6 +197,9 @@
 			
 			
 			\ref{USAJ16} & US\_AJ16 & \cite{ajello2016financial}\\
+
+			\ref{USBR13} & US\_BR13 & \cite{Blanchard2013}\\
+
 			\ref{USBB18} & US\_BB18 & \cite{balke2018oil}\\
 			%&& \\
 			\ref{USBKM12} & US\_BKM12 & \cite{bils2012reset}\\
@@ -221,13 +243,9 @@
 			& US\_FRB22\_mcapwp & \cite{brayton2022linver}: financial market, wage and price \\&&expectations are model consistent, other expectations are based on a small VAR\\
 			& US\_FRB22\_mcap & \cite{brayton2022linver}: financial market expectations are model\\&& consistent, other expectations are based on a small VAR\\
 			& US\_FRB22\_var & \cite{brayton2022linver}: all expectations are based on VAR predictions\\
-			\ref{USFU19} & US\_FU19 & \cite{fratto2019uhlig} \\
-			\ref{USFV10} & US\_FV10 & \cite{fernandez2010econometrics}\\
-			\ref{USFV15} & US\_FV15 & \cite{fernandez2015estimating}\\
-			\ref{USHL16} & US\_HL16 & \cite{hollander2016liu}\\
-			\ref{USIAC05} & US\_IAC05 & \cite{Iacoviello2005} \\
-			\ref{USIN10} & US\_IN10 & \cite{IacovielloNeri2010} \\
-			\ref{USIR11} & US\_IR11 & \cite{Ireland2011} \\
+			
+		
+			
 			
 			
 			&& \\
@@ -250,6 +268,14 @@
 			&& \\
 			\multicolumn{3}{l}{\textsc{2. Estimated US Models (continued)}} \\
 			%&& \\
+			\ref{USFU19} & US\_FU19 & \cite{fratto2019uhlig} \\
+			\ref{USFV10} & US\_FV10 & \cite{fernandez2010econometrics}\\
+			\ref{USFV15} & US\_FV15 & \cite{fernandez2015estimating}\\
+			\ref{USGG24} & US\_GG24 & \cite{gagliardoneoil2024}\\
+			\ref{USHL16} & US\_HL16 & \cite{hollander2016liu}\\
+			\ref{USIAC05} & US\_IAC05 & \cite{Iacoviello2005} \\
+			\ref{USIN10} & US\_IN10 & \cite{IacovielloNeri2010} \\
+			\ref{USIR11} & US\_IR11 & \cite{Ireland2011} \\
 			\ref{USIR15} & US\_IR15 & \cite{ireland2015monetary}\\
 			\ref{USJPT11} & US\_JPT11 & \cite{Justinianoetal2011}\\ 	
 			\ref{USKK14} & US\_KK14 & \cite{kliem2014kriwoluzky} \\
@@ -271,6 +297,9 @@
 			\ref{USRA07} & US\_RA07 & \cite{Rabanal2007} \\
 			\ref{USRE09} & US\_RE09 & \cite{reis2009sticky}\\
 			\ref{USRS99} & US\_RS99 & \cite{RudebuschSvensson1999} \\
+
+			\ref{USVGIP15} & US\_VGIP15 & \cite{Vasconez2015} \\
+
 			\ref{USSW07} & US\_SW07 & \cite{SmetsWouters2007} \\
 			\ref{USVI16} & US\_VI16bgg & \cite{villa2016}  - with \cite{BernankeGertlerGilchrist1999} financial accelerator \\
 			& US\_VI16gk & \cite{villa2016} - with \cite{GertlerKaradi2013} financial friction \\
@@ -294,17 +323,10 @@
 			& EA\_CW05fm & \cite{CoenenWieland2005}, (Fuhrer-Moore-staggered contracts) \\
 			\ref{EADKR11} & EA\_DKR11 &  \cite{DarracqPariesetal2011} \\
 			\ref{EAGE10} & EA\_GE10 & \cite{Gelain2010} \\
-			\ref{EAGNSS10} & EA\_GNSS10 & \cite{Geralietal2010} \\
-			\ref{EAPV15} & EA\_PV15 & \cite{poutineau2015cross} \\
-			\ref{EAPV16} & EA\_PV16 & \cite{priftis2016portfolio} \\
-			\ref{EAPV17} & EA\_PV17 & \cite{priftis2017macroecon} \\
-			\ref{EAQR14} & EA\_QR14 $ ^{\ast \ast}$ & \cite{QR2014}  \\
-			\ref{EAQUEST3} & EA\_QUEST3 & QUEST III Euro Area Model of the DG-ECFIN EU, \cite{RattoRoegerVeld2009} \\
-			\ref{EASR07} & EA\_SR07 & Sveriges Riksbank euro area model of \cite{AdolfsonLaseenLindeVillani2007}\\
-			\ref{EASW03} & EA\_SW03 & \cite{SmetsWouters2003} \\
 			
 			
-			\ref{EASWW14} & EA\_SWW14 & \cite{smets2014warne} \\
+			
+			
 
 			%5.4 & CA\_ToTEM10$^{\ast}$ & ToTEM model of Canada, based on \cite{MurchisonRennison2006}, \\
 			% && 2010 vintage \\
@@ -353,6 +375,17 @@
 			\hline \hline
 			&& \\
 			\multicolumn{3}{l}{\textsc{3. Estimated Euro Area Models (continued)}} \\
+			\ref{EAGNSS10} & EA\_GNSS10 & \cite{Geralietal2010} \\
+			\ref{EAPV15} & EA\_PV15 & \cite{poutineau2015cross} \\
+			\ref{EAPV16} & EA\_PV16 & \cite{priftis2016portfolio} \\
+			\ref{EAPV17} & EA\_PV17 & \cite{priftis2017macroecon} \\
+			\ref{EAQR14} & EA\_QR14 $ ^{\ast \ast}$ & \cite{QR2014}  \\
+			\ref{EAQUEST3} & EA\_QUEST3 & QUEST III Euro Area Model of the DG-ECFIN EU, \cite{RattoRoegerVeld2009} \\
+			\ref{EASR07} & EA\_SR07 & Sveriges Riksbank euro area model of \cite{AdolfsonLaseenLindeVillani2007}\\
+			\ref{EASW03} & EA\_SW03 & \cite{SmetsWouters2003} \\
+			
+			
+			\ref{EASWW14} & EA\_SWW14 & \cite{smets2014warne} \\
 			\ref{EAVI16} & EA\_VI16bgg & \cite{villa2016} - with \cite{BernankeGertlerGilchrist1999} financial accelerator \\
 			& EA\_VI16gk & \cite{villa2016} - with \cite{GertlerKaradi2013} financial friction \\
 			&&\\
@@ -412,9 +445,64 @@
 	\newpage
 	
 	\section{Calibrated Models}
+
+	\subsection{NK\_ADE25cpi: \texorpdfstring{\cite{Auray2025}}{{Auray et~al.(2025)}}}
+	\label{NKADE25cpi}
+	\cite{Auray2025} develop a two-country New Keynesian DSGE model of
+	trade wars and monetary policy. The model is applied to the U.S.–China trade war episode
+	of 2018–2019 to evaluate empirical relevance and counterfactual monetary policy scenarios. It
+	explicitly incorporates nominal rigidities, imperfect competition, endogenous trade policy, and
+	international spillovers, to study how monetary rules shape the outcome of trade wars. The
+	model assumes that export prices are set in the producer’s own currency, so that tariffs imposed
+	by trading partners directly affect import prices and the terms of trade. It also includes markup
+	distortions, sticky prices through Rotemberg adjustment costs, and discretionary tariff setting
+	by each country. Some parameters are calibrated to match U.S. and Chinese macroeconomic
+	features, while others are estimated with Bayesian methods using quarterly data.
+	\begin{itemize}
+		\item Aggregate Demand: Households maximize their lifetime utility, where the utility function
+	is separable in consumption of home and foreign goods and disutility of labor, subject to
+	an intertemporal budget constraint. Preferences are logarithmic over consumption and
+	exhibit a Frisch elasticity of labor supply. Households choose consumption of home and
+	imported goods, hours worked, and holdings of one-period nominal bonds, taking wages,
+	prices, tariffs, and firm profits as given. Lump-sum transfers include redistributed tariff
+	revenues and firm profits. Home bias in consumption is calibrated to match observed
+	U.S.–China bilateral trade shares. The nominal budget constraint includes tariff-adjusted
+	import prices. Government transfers are exogenous but funded by tariff revenues and
+	follow an i.i.d. one-time shock.
+		\item Aggregate Supply: The final goods, which are produced under perfect competition, are
+		used for consumption by households. The final goods producer maximizes profits subject to
+		a CES aggregator of intermediate goods, which introduces monopolistic competition in the
+		market for intermediate goods and implies a constant elasticity of substitution between
+		different intermediate goods. A continuum of intermediate firms produce differentiated
+		goods using a production function with Cobb–Douglas technology and stochastic productivity.
+		Firms choose prices to maximize the present value of expected profits, subject to
+		downward-sloping demand and Rotemberg price adjustment costs, which create nominal
+		rigidities. Even in the absence of nominal rigidities, monopoly distortions persist due to
+		imperfect competition, leading to an inefficiently low level of output relative to the efficient
+		benchmark. Tariffs further distort production and prices by shifting relative demand
+		between home and foreign goods.
+		\item  Shocks: A total factor productivity shock in each country, a discretionary tariff shock in
+		each country, and two monetary policy shocks: one in the home country and one in the
+		foreign country. Productivity shocks follow highly persistent AR(1) processes, while tariff
+		shocks are modeled as i.i.d. deviations from the steady-state tariff rates. Monetary policy
+		shocks are also AR(1), capturing persistent deviations from the monetary policy rules in
+		each country. All shocks are normally distributed with calibrated standard deviations of
+		0.01.
+		\Calibration/Estimation: The model is calibrated and estimated for the U.S. and China using
+		Bayesian techniques on quarterly data. Key structural parameters are calibrated based
+		on empirical evidence and trade data, while monetary policy parameters, price adjustment
+		costs, and other shock processes are estimated. The estimation uses macroeconomic and
+		trade-related observables and delivers posterior distributions consistent with recent findings
+		in the literature. 
+		\item Replication: We replicated the impulse response functions to monetary policy and tariff
+		shocks under Smets & Wouters (2007) monetary policy rule. The variables include Inflation,
+		Output, Output Gap, Interest, Consumption, and other, reproducing the key findings
+		on the welfare implications of CPI versus PPI targeting.
+	\end{itemize}
+
+
 	
-	
-	\subsection{NK\_AFL15:\texorpdfstring{\cite{Angelonietal2015}}{Angeloni et al. (2015)}}
+	\subsection{NK\_AFL15: \texorpdfstring{\cite{Angelonietal2015}}{Angeloni et al. (2015)}}
 	\label{NKAFL15}
 	\cite{Angelonietal2015} propose a DSGE model where banks are subject to runs, modelled as a discipline device in the spirit of \cite{diamond2000theory,diamond2001liquidity}. Banks invest in risky projects and fund operations via bank equity and run-prone deposits, such that their funding structure endogenously determines bank fragility. In the model, expansionary monetary policy (either following a monetary policy shock or responding to other exogenous shocks) increases bank leverage and risk. An accelerating balance sheet channel is offset by banks' risk taking such that business cycle fluctuations are dampened relative to a model without a financial sector.
 	\begin{itemize}
@@ -472,19 +560,8 @@
 	\subsection{NK\_CDK24: \texorpdfstring{\cite{chan2024energy}}{Chan et al. (2024)}}
 	\label{NKCDK24}
 	
-	\cite{chan2024energy} develop a medium-scale open economy two-agent New Keynesian (TANK) model and calibrate it for the U.K.
+	The model
 	
- 	\begin{itemize}
- 	\item Aggregate Demand: Households maximize their lifetime utility, using a CES function of	consumption and energy, subject to an inter-temporal budget constraint. A portion of households are financially unconstrained. They consume and supply labor to unions, save in domestic and foreign nominal risk-free bonds, and receive profits from firm ownership. The remaining fraction of households are hand-to-mouth, implying they only consume their labor income.
-	
-	\item Aggregate Supply: The single-differentiated final goods are produced by a continuum of monopolistic competitive firms, which use imported energy and labor following a CES function. They decide on labor and capital inputs and set prices according to the Calvo model. Labor is differentiated by a union so that there is some monopoly power over wages, which results in an explicit wage equation. Labor packers buy the labor from the unions and resell it to the final goods producer in a perfectly competitive environment. Sticky wages according to Calvo are additionally assumed. The Calvo model in both wage and price setting is augmented by the assumption that prices that can not be freely set, are partially indexed to past inflation rates. The final goods packers maximize profits subject to an aggregator of final goods, which introduces monopolistic competition in the market for final goods and features a non-constant elasticity of substitution between different final goods, which depends on their relative price.
-	
-	\item Shocks: The model features 4 shocks, i.e. TFP shock, global energy price shock, price markup shock and monetary policy shock.
-	
-	\item Calibration: The model is calibrated for the U.K.. However, the majority of parameters is very close to the literature.
-	
-	\item Replication: We replicated the impulse response functions to a 100\% increase in the global energy prices and a negative shock to TFP.
-	\end{itemize}
 	
 	\subsection{NK\_CFP10: \texorpdfstring{\cite{carlstrom2010optimal}}{Carlstrom et al. (2010)}}
 	\label{NKCFP10}
@@ -757,7 +834,7 @@
 	\end{itemize}
 	
 	
-	\subsection{NK\_GM16 \texorpdfstring{\cite{gali2016understanding}}{GalÃƒÂ­ and Monacelli (2016)}}
+	\subsection{NK\_GM16: \texorpdfstring{\cite{gali2016understanding}}{GalÃƒÂ­ and Monacelli (2016)}}
 	\label{NKGM16}
 	\cite{gali2016understanding} study the gains from increased wage flexibility using a small open economy model with staggered price and wage setting and comparing the cases of an independent monetary policy versus a currency union. The model builds on the framework developed in \cite{GaliMonacelli2005}, extended by introducing sticky nominal wages (in addition to sticky prices) and additional shocks (labor tax shock, domestic demand, exports, and world interest rate). Two results stand out: (i) the effectiveness of labor cost reductions as a means to stimulate employment is much smaller in a currency union, and (ii) an increase in wage flexibility often reduces welfare, more likely so in an economy that is part of a currency union or with an exchange rate-focused monetary policy.
 	
@@ -775,7 +852,42 @@
 		\item Calibration: The model is calibrated mostly to fit some characteristics of the Euro Area and its peripheral countries.
 	\end{itemize}
 	
+\subsection{NK\_GMAS25cpi: \texorpdfstring{\cite{monacelli2025tariffs}}{Monacelli(2025)}}
+	\label{NKGMAS25cpi}
+	\cite{monacelli2025tariffs} develops a model of a small open economy that is part of a world economy comprised of a continuum of small open economies sharing identical preferences, technology, and market structure but facing imperfectly correlated productivity shocks. With this framework, the authors analyze the macroeconomic implications of three different rule-based policy regimes for a small open economy, pointing out the trade-offs the authorities face between the stabilization of the nominal exchange rate, domestic inflation, and the output gap.
 	
+	\begin{itemize}
+		
+		\item Aggregate Demand: The representative household in a small open economy seeks to optimize its utility separable between consumption and leisure subject to its budget constraint. Consumption is a composite of domestic and foreign goods, weighted by the degree of home bias in preferences, which represents the index of country openness. The dynamic IS equation is similar to that found for a closed economy, but with the degree of openness influencing the sensitivity of the output gap to interest rate changes. Furthermore, the natural interest rate depends on the expected growth of world output.
+		
+		\item Aggregate Supply: Differentiated goods are produced from a typical firm using a linear technology with labor as input. Firms face price stickiness \`{a} la Calvo as in the case of a closed economy. Importantly, marginal costs are increasing in terms of trade and in world output. The degree of country openness affects the slope of the New Keynesian Phillips curve of the small open economy, thus affecting the response of inflation to variations in the output gap.
+		
+		\item The Foreign Sector: Purchasing Power Parity and the law of one price holds. There is a perfect exchange rate pass-through. Under the assumption of complete international financial markets, an international risk sharing in the form of the uncovered interest rate parity is obtained.
+		
+		\item Shocks: A domestic productivity shock and a world demand shock.
+		
+		\item Calibration/Estimation: The model is calibrated mostly to fit some characteristics of the Canadian economy. In order to calibrate the stochastic properties of the exogenous driving forces, AR(1) processes are fitted, using quarterly, HP-filtered data over the sample period 1963:Q1--2002:Q4.
+
+		\item Tariffs: In addition to \cite{GaliMonacelli2005}, this model also includes import tariffs; the tariff revenue is not considered, it more fares as an exogenous price shock. The target inflation for the monetary policy rule used is the CPI, such that imports also have a weight in the central bank's policy decision.
+		
+		\item Replication: As the model is still in working paper status, we derived a similar model to \cite{monacelli2025tariffs} with some elements of Bianchi \& Coulibaly(2025). As only the tariff sector is affected, the model is observationally equivalent to \cite{GaliMonacelli2005} when no tariffs are present!
+
+		\item For NK\_GMAS25\_PPI the setup is exactly the same as in NK\_GMAS25, with the difference that here the central bank targets PPI inflation, so only domestic prices. This leads to different policy decisions and trajectories compared to NK\_GMAS25. Again, in the absence of tariffs, the model is observationally equivalent to \cite{GaliMonacelli2005}.
+		
+	\end{itemize}
+
+	\subsection{NK\_GN25: \texorpdfstring{\cite{Gnocato2025}}{Gnocato (2025)}}
+	\label{NKGN25}
+	NK\_GN25 is a tractable HANK model developed by \cite{Gnocato2025} focusing on the effects of energy price shocks on unemployment and labor-market dynamics.
+
+\begin{itemize}
+    \item Agents and Structure: The model distinguishes between workers and firm owners, with explicit labor-market flows driven by search and matching frictions. Unemployment and job-finding rates are endogenously determined. Workers have Stone–Geary preferences with a subsistence level of energy consumption, where the relative share of energy in total consumption differs between employed and unemployed workers.
+    \item Production and Energy: Oil/energy is required as an input in production. Production technologies combine labor and energy using a Leontief specification.
+    \item Monetary Policy: The central bank follows a Taylor rule, responding to both inflation and measures of labor-market slack. The policy rule can be modified to explore welfare implications under alternative regimes.
+    \item Shocks: The model is subject to exogenous energy-price shocks, productivity shocks, and standard monetary disturbances. Household heterogeneity implies differential exposure to shocks.
+    \item Calibration: Parameters are set to match euro area data in the early 2020s, focusing on the joint dynamics of energy prices, unemployment, and output.
+    \item Replication: Model replication includes computing IRFs to energy shocks under complete inflation targeting.
+\end{itemize}
 	
 	\subsection{NK\_GS14: \texorpdfstring{\cite{gambacorta2014should}}{Gambacorta and Signoretti (2014)}}
 	\label{NKGS14}
@@ -1180,6 +1292,21 @@
 		
 	\end{itemize}
 
+	\subsection{US\_BR13: \cite{Blanchard2013}}
+\label{USBR13}
+In \cite{Blanchard2013}, the authors study the evolving impact of oil price shocks on the U.S. economy within a small-scale NK DSGE model. The model is designed to explain changes in the macroeconomic transmission of oil shocks across different historical periods, particularly pre- and post-1984.
+
+\begin{itemize}
+    \item Aggregate Demand: Households optimize intertemporal utility, featuring external habit formation. Labor is supplied to firms under real wage rigidities. Oil is present both in the consumption basket and as an input to production. Consumption–leisure trade-offs are influenced by wage and price frictions.
+    \item Aggregate Supply: The production side includes nominal price rigidity (Calvo pricing) and combines labor and oil as inputs in a Cobb–Douglas production function. Markup shocks and structural changes in wage rigidity are key elements, allowing the model to replicate the changing responses to oil shocks observed in the data.
+    \item Monetary Policy: The central bank follows a standard Taylor-type rule, adjusting the policy rate in response to inflation and output-gap dynamics. Policy coefficients and the degree of price and wage rigidity vary across historical subsamples to reflect changing policy environments.
+    \item Shocks: The model is subject to a set of structural shocks, including exogenous oil price shocks, markup shocks, and monetary policy disturbances.
+    \item Calibration/Estimation: Parameters are estimated and calibrated to quarterly U.S. data from 1960 to 2007, allowing for empirical evaluation of the evolving macroeconomic effects of oil price shocks.
+    \item Replication: The replication reproduces the model's results for oil price shocks parameterized using post-1984 estimated values. The replication code also contains alternative calibration and estimation values for the pre-1984 period.
+    \item Model replications focus on matching the IRFs of key macroeconomic aggregates to oil price shocks by comparing the pre- and post-1984 periods, highlighting structural shifts.
+\end{itemize}
+
+
 	\subsection{US\_BB18: \cite{balke2018oil}}
 \label{USBB18}
 In \cite{balke2018oil}, the authors consider the role of oil in a medium-sized DSGE framework that models the domestic U.S. economy as well as the rest of the world (ROW). Oil is supplied to and demanded from the U.S., and the U.S. domestic economy possesses an oil-producing sector.
@@ -1519,7 +1646,19 @@ In \cite{balke2018oil}, the authors consider the role of oil in a medium-sized D
 		\item Replication: We replicated the impulse response functions to a positive one standard deviation monetary policy shock and technology shock, as shown in Figure 6.1 and 6.2 of the technical appendix.
 	\end{itemize}
 	
-	
+	\subsection{US\_GG24: \cite{gagliardoneoil2024}}
+	\label{USGG24}
+	\cite{gagliardoneoil2024} develop a New Keynesian model designed to study the interplay between oil price shocks, labor market frictions, and monetary policy in the U.S. economy, with particular focus on the 2021--2022 inflation surge.
+
+	\begin{itemize}
+    \item Aggregate Demand: Households consume goods and supply labor. Oil is included both in the consumption bundle and as an input in production. The model incorporates real wage rigidities, while price stickiness is introduced through Calvo pricing. Habit formation in consumption is included to generate persistence in demand.
+    \item Aggregate Supply: Production uses a CES aggregator of labor and oil, reflecting strong complementarity between the two inputs.
+    \item Labor Market: Labor market frictions are modeled through wage rigidity and job-matching mechanisms, which allow endogenous unemployment responses to oil shocks.
+    \item Shocks: The model incorporates a range of shocks, with emphasis on exogenous oil price changes and cost-push disturbances. Both estimated and calibrated configurations are supported.
+    \item Calibration: The model is tailored to replicate impulse responses observed during large energy-price swings, including the recent inflation surge episodes.
+    \item Replication: The replication reproduces IRFs for an oil price shock.
+	\end{itemize}
+
 	\subsection{US\_HL16: \texorpdfstring{\cite{hollander2016liu}}{Hollander and Liu (2016)}}
 	\label{USHL16}
 	\cite{hollander2016liu} analyse the role of the equity price channel in business cycle fluctuations. They incorporate the financial accelerator channel and the bank equity channel into a medium-scale New-Keynesian DSGE model. Through these two channels, the equity price channel amplifies shocks to the real economy. The model reproduces the procyclicality of the equity price found in the data.
@@ -2024,7 +2163,18 @@ In \cite{balke2018oil}, the authors consider the role of oil in a medium-sized D
 		%\item Impulse Responses: Figure \ref{img:US_RS99}
 	\end{itemize}
 	
-	
+	\subsection{US\_VGIP15: \cite{Vasconez2015}}
+	\label{USVGIP15}
+	\cite{Vasconez2015} present a small-scale DSGE model that emphasizes the role of oil in production and capital accumulation. The model is used to assess how improvements in oil efficiency and consumption dynamics affect macroeconomic volatility.
+
+\begin{itemize}
+    \item Aggregate Demand: Households derive utility from consumption and leisure, with an explicit role for oil both in the consumption bundle and as an input in production. Nominal wage rigidity is absent, while price stickiness is implemented via Calvo pricing.
+    \item Aggregate Supply: The final good is produced with labor, capital, and oil using a Cobb–Douglas production function. The model allows for either estimated or calibrated price stickiness and incorporates an explicit efficiency channel for oil use.
+    \item Oil: Oil is an imported commodity whose price is determined exogenously in domestic-currency terms. The model does not incorporate additional open-economy features.
+    \item Shocks: The system is driven by exogenous oil price shocks, as well as technology, price markup, government spending, capital price, and monetary policy shocks.
+    \item Calibration/Estimation: Bayesian estimation is conducted using quarterly data from the 1984--2007 period.
+    \item Replication: The replication reproduces IRFs for an oil price shock for both parameter variants, corresponding to the calibrated and estimated price-stickiness specifications.
+\end{itemize}
 	
 	
 	
